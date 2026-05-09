@@ -1,0 +1,1892 @@
+[
+  {
+    "image_id": "TRF_001",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (1).jpg",
+    "question": "Based on the signage on the left pole, why would a heavy commercial delivery vehicle be prohibited from stopping here despite the open road space?",
+    "answer": "The circular sign with a red border and a diagonal slash over a car silhouette indicates a 'No Parking or Standing' zone, likely to maintain clear sightlines for the narrow residential curve ahead.",
+    "reasoning": "1. Observation: A 'No Parking' regulatory sign is visible on the utility pole. 2. Rule: Regulatory signs with red slashes prohibit specific maneuvers. 3. Conclusion: Stopping here would violate local traffic laws intended to prevent congestion on this narrow two-lane road.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_002",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (2).jpg",
+    "question": "Based on the placement of the yellow and black barrier, what is the temporary change to the standard right-of-way for vehicles approaching the crosswalk?",
+    "answer": "The barrier forces a lane narrowing or closure, implying that vehicles must yield to oncoming traffic or pedestrians earlier than usual due to a reduced maneuvering zone.",
+    "reasoning": "1. Observation: A temporary impact-attenuator barrier (yellow/black) is placed at the edge of the crosswalk. 2. Rule: Barriers indicate roadwork or hazards that constrict the drivable path. 3. Conclusion: The standard traffic flow is interrupted, requiring increased driver vigilance and a modified yield pattern.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_003",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (3).jpg",
+    "question": "Given the specific lane indicators on the overhead gantry, which direction must the vehicle in the far-left lane proceed at the upcoming junction?",
+    "answer": "The vehicle must turn left toward Mäkelänkatu/Backasgatan, as indicated by the specific arrow and destination name on the leftmost gantry sign.",
+    "reasoning": "1. Observation: The leftmost gantry sign features a left-pointing arrow. 2. Rule: Overhead gantry signs define mandatory lane directions in multi-lane urban roads. 3. Conclusion: To stay in compliance with the road markings and signs, the far-left lane is restricted to a left turn only.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_004",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image(4).jpg",
+    "question": "Based on the blue circular sign on the left, what is the mandatory path for the silver van to avoid a collision with a hidden median or traffic island?",
+    "answer": "The van must keep right, as the sign (blue circle with a downward-pointing arrow to the right) indicates a mandatory side-pass instruction.",
+    "reasoning": "1. Observation: A 'Keep Right' mandatory sign is positioned on a post. 2. Rule: Blue circular signs with arrows indicate mandatory directions. 3. Conclusion: Following the arrow ensures the vehicle passes on the correct side of the infrastructure to avoid oncoming traffic or a physical barrier.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_005",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (5).jpg",
+    "question": "Looking at the yellow double-line road markings and the position of the UCC Foods truck, what hazard is created for the white van directly ahead?",
+    "answer": "The yellow lines indicate a no-passing zone, meaning the white van is trapped behind slower traffic without a legal way to overtake, increasing the risk of rear-end collision if the truck brakes suddenly.",
+    "reasoning": "1. Observation: Solid yellow lines separate the lanes. 2. Rule: Solid lines prohibit crossing or overtaking. 3. Conclusion: The density of the vehicles combined with the no-passing restriction creates a 'bottleneck' safety risk.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_006",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (6).jpg",
+    "question": "Based on the unique shape of the traffic light housing on the left, what specific logical information is it providing to drivers that a standard circular light would not?",
+    "answer": "The 'D-shaped' or 'dog-house' housing indicates a protected-permissive turn phase, allowing for a dedicated turn arrow followed by a standard green yield.",
+    "reasoning": "1. Observation: The signal head has a non-standard, multi-section configuration. 2. Rule: Signal shapes often differentiate between through-traffic and turning-traffic priorities. 3. Conclusion: Drivers must interpret the specific sequence of that signal to determine if their turn is protected from oncoming traffic.",
+    "reasoning_type": "logical",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_007",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (7).jpg",
+    "question": "Analyze the red circular signs featuring a truck silhouette. Why is the red sedan on the left not in violation of these signs while a standard semi-truck would be?",
+    "answer": "The signs indicate a 'No Heavy Goods Vehicles' (Trucks) restriction; as a passenger car, the red sedan does not meet the weight or vehicle-class threshold for the prohibition.",
+    "reasoning": "1. Observation: Regulatory signs prohibit truck access. 2. Rule: Silhouette-based prohibitions apply only to the specific vehicle class depicted. 3. Conclusion: The infrastructure is designed to limit pavement wear or noise from heavy vehicles, but remains open to passenger cars.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_008",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (8).jpg",
+    "question": "Looking at the pavement markings and signal state, what is the primary conflict point for the pedestrians currently crossing the street?",
+    "answer": "The conflict point is with the vehicles waiting at the green light (visible in center), as their path intersects with the crosswalk once the pedestrian phase ends or if a vehicle makes a turn.",
+    "reasoning": "1. Observation: Pedestrians are in the crosswalk while green lights are active for some lanes. 2. Rule: Intersections with multi-phase signals require synchronization of human and vehicle movement. 3. Conclusion: The pedestrians rely on the 'all-stop' or protected walk phase to clear the conflict point before traffic resumes.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_009",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (9).jpg",
+    "question": "Based on the 'PARE' sign and the ground markings, what is the immediate legal obligation for a vehicle approaching this junction from the bottom left?",
+    "answer": "The vehicle must come to a complete stop and yield to all traffic on the intersecting road before proceeding.",
+    "reasoning": "1. Observation: An octagonal red 'PARE' (Stop) sign is present. 2. Rule: 'PARE' signs require a full cessation of movement at the stop line. 3. Conclusion: Failure to stop here would result in a high-speed T-bone collision risk due to the wide, high-visibility layout of the road.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_010",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (10).jpg",
+    "question": "Looking at the damage to the metal downspout on the right building, what is the most likely cause related to the urban environment shown?",
+    "answer": "The denting at a height of approximately 3-4 feet suggests a low-speed impact from a vehicle's bumper or a delivery cart while navigating the narrow sidewalk/parking lane.",
+    "reasoning": "1. Observation: The silver downspout is heavily dented at wheel-well height. 2. Rule: Damage patterns in tight urban corridors are usually the result of logistical maneuvers. 3. Conclusion: The proximity of the parking spaces to the building structure makes this a high-probability zone for minor vehicle-infrastructure collisions.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_011",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (11).jpg",
+    "question": "Based on the specific signage and road markings in the center foreground, what is the legal status of the area occupied by the parked bicycles relative to motorized vehicles?",
+    "answer": "The area is a dedicated non-motorized zone, indicated by the 'Bicycle Zone' sign (blue circle with bicycle icon) and the physical red-and-white barrier, prohibiting car entry or parking.",
+    "reasoning": "1. Observation: A blue circular regulatory sign and a 'Fahrrad' (bicycle) barrier are present. 2. Rule: Blue circular signs indicate mandatory use or restricted zones. 3. Conclusion: The infrastructure physically and legally separates cyclists from the red delivery truck and other motorized traffic seen in the background.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_012",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (12).jpg",
+    "question": "Looking at the position of the French flag and the surrounding trees, what environmental factor might be affecting the visibility of the traffic signals for drivers emerging from the bridge?",
+    "answer": "The density and height of the mature trees on the left create a 'green tunnel' effect that likely obscures secondary signal heads or signage depending on the driver's approach angle.",
+    "reasoning": "1. Observation: Large, leafy trees overhang the roadway. 2. Rule: Natural foliage can block the sightlines of critical traffic infrastructure. 3. Conclusion: Drivers must rely on the primary signal head on the right-hand lamp post because the left-side visibility is environmentally compromised.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_013",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (13).jpg",
+    "question": "Analyze the road markings (dotted lines) and the position of the black SUV. Why is the driver likely waiting in the middle of the junction rather than completing the turn?",
+    "answer": "The driver is likely yielding to oncoming traffic or pedestrians (visible on the left) before crossing the opposing lane, as the dotted junction markings define a crossing conflict zone.",
+    "reasoning": "1. Observation: A vehicle is stationary within the dotted box of an intersection. 2. Rule: Drivers must not enter an intersection unless their exit is clear, or they are yielding for a turn. 3. Conclusion: The SUV is observing 'Right-of-Way' priority for the pedestrians or vehicles currently occupying the target path.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_014",
+    "source_file": "C:/Users/ASUS/Desktop/VQA/annotate/images/image (14).jpg",
+    "question": "Based on the wide-angle perspective of the intersection and the white/black striped poles, what type of high-priority urban transport system is integrated into this junction?",
+    "answer": "A tram or light rail system is present, indicated by the specific striped signal poles and the overhead catenary wires visible against the sky.",
+    "reasoning": "1. Observation: Vertical poles with black and white segments and overhead wires are present. 2. Rule: This specific pole styling is used globally to denote tram-way crossings. 3. Conclusion: Motorists must be aware of rail-based traffic which has different braking distances and right-of-way than standard cars.",
+    "reasoning_type": "logical",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_015",
+    "source_file": "image (15).jpg",
+    "question": "Examine the two leaning 'Gate of Europe' towers (Bankia and Realia). Based on the overhead portal signs, what is the immediate lane-use restriction for drivers entering the tunnel below?",
+    "answer": "Drivers must use the lanes marked with downward-pointing arrows; the portal indicates multiple lanes are active for tunnel entry, but the far-right lane is restricted for exit or emergency use.",
+    "reasoning": "1. Observation: A gantry with lane control signals is positioned over the tunnel mouth. 2. Rule: Green arrows or white pointers indicate open lanes, while red 'X' or lack of arrows indicate closures. 3. Conclusion: To avoid collisions inside the enclosed space, drivers must align with the specific gantry signals before the lane walls narrow.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_016",
+    "source_file": "image (16).jpg",
+    "question": "Based on the blue circular signs with white arrows on the right side of the street, what is the mandatory maneuver for a vehicle exiting the driveway next to the 'Absolute Live' van?",
+    "answer": "The vehicle must proceed straight or turn right, as indicated by the mandatory direction arrows on the blue signs.",
+    "reasoning": "1. Observation: Two blue mandatory signs (one 'Straight Only', one 'Right Turn') are visible. 2. Rule: Blue circular signs with white arrows dictate the only legal directions of travel. 3. Conclusion: A left turn is prohibited at this exit point to prevent head-on conflicts with the one-way flow of the main road.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_017",
+    "source_file": "image (17).jpg",
+    "question": "Analyze the position of the red bus and the 'North Point' street sign. Why is the black car in the center-right lane currently at a full stop?",
+    "answer": "The black car is stopped at a red light, which is synchronized with the pedestrian crossing where the couple is currently walking on the far left.",
+    "reasoning": "1. Observation: Pedestrians are mid-crosswalk; the bus and car are stationary. 2. Rule: Traffic signals coordinate vehicle stops to allow safe pedestrian intervals. 3. Conclusion: The car is observing a standard signal-controlled stop to prevent a pedestrian-vehicle collision.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_018",
+    "source_file": "image (18).jpg",
+    "question": "What does the zig-zag white road marking on the left side of the street indicate regarding the parking behavior of the blue car?",
+    "answer": "The blue car is parked illegally or in a restricted zone, as zig-zag lines generally indicate a 'No Stopping' area, often near a pedestrian crossing or school entrance to maintain visibility.",
+    "reasoning": "1. Observation: A blue car is parked directly on or adjacent to white zig-zag lines. 2. Rule: Zig-zag lines are used to keep an area clear of stationary vehicles for line-of-sight safety. 3. Conclusion: The car's position creates a visual blind spot for other drivers and pedestrians, violating local safety ordinances.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_019",
+    "source_file": "image (19).jpg",
+    "question": "Based on the position of the pink car and the red freight container truck, why is the pink car likely to merge to the left lane in the next few seconds?",
+    "answer": "The pink car is approaching the slower-moving heavy truck and will need to merge into the left lane to maintain highway speed and avoid the truck's rear-end blind spot.",
+    "reasoning": "1. Observation: A small car is traveling significantly faster than a large laden truck in the same lane flow. 2. Rule: High-speed differentials on motorways necessitate lane changes for safety. 3. Conclusion: The driver must perform a spatial maneuver to the left to bypass the slower logistical vehicle.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_020",
+    "source_file": "image (20).jpg",
+    "question": "Looking at the red light on the dashboard-level perspective and the red-painted lane on the right, what specific urban infrastructure is being prioritized at this intersection?",
+    "answer": "The intersection prioritizes public transit and cycling, indicated by the red-painted bus/cycle lane and the separate signal phases for transit vehicles.",
+    "reasoning": "1. Observation: A distinct red-colored lane and secondary signal heads are visible. 2. Rule: Color-coded lanes (red or green) are standard for high-occupancy or non-motorized vehicles. 3. Conclusion: The Ford Mondeo in the center must wait for a standard green while the transit lane may have a different priority window.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_021",
+    "source_file": "image (21).jpg",
+    "question": "Analyze the density of the traffic and the specific placement of the pink-and-white vehicle. Why is this vehicle likely exempt from certain lane restrictions that apply to the grey car in the foreground?",
+    "answer": "The pink-and-white vehicle is a licensed taxi (indicated by the 'TAXI' roof sign and specific livery), which often grants it access to dedicated transit lanes or priority zones to improve urban mobility.",
+    "reasoning": "1. Observation: A vehicle with a 'TAXI' sign and pink/white branding is in a congested flow. 2. Rule: Many metropolitan areas provide 'Transit Only' or 'Taxi' lane exemptions. 3. Conclusion: In heavy traffic, this vehicle may have a more efficient legal route available than standard private passenger vehicles.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_022",
+    "source_file": "image (22).jpg",
+    "question": "Looking at the position of the heavy freight trucks in the distance relative to the curve of the highway, what spatial hazard should the black SUV driver anticipate in the next 5 seconds?",
+    "answer": "The SUV driver should anticipate a 'squeeze' or lane encroachment hazard, as large trucks navigating a right-hand curve often have a wider 'off-tracking' sweep that can overlap into the adjacent lane.",
+    "reasoning": "1. Observation: Multiple large trucks are approaching a highway curve. 2. Rule: Long-wheelbase vehicles require more lateral space during turns (off-tracking). 3. Conclusion: The SUV must maintain a safety buffer or avoid passing the trucks until the road straightens to prevent a lateral collision.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_023",
+    "source_file": "image (23).jpg",
+    "question": "Based on the length of the gold-and-blue articulated bus currently crossing the intersection, why is the grey sedan likely to remain stationary even if the light turns green?",
+    "answer": "The articulated bus is currently 'blocking the box.' If the sedan proceeds, it will be trapped in the middle of the intersection, violating the 'Don't Block the Box' rule and causing gridlock.",
+    "reasoning": "1. Observation: A long bus is physically occupying the center of the junction. 2. Rule: Drivers must not enter an intersection unless there is sufficient space on the opposite side to clear it. 3. Conclusion: The sedan must wait for the bus to complete its sweep before moving, regardless of the signal state.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_024",
+    "source_file": "image (24).jpg",
+    "question": "Look at the '100' signs on both sides of the road. Why is there a high-visibility green mark on the right shoulder pavement just ahead of the camera?",
+    "answer": "The green marking is likely a forensic or engineering survey point used to denote a specific reference for road maintenance or to mark the exact location of a previous incident/safety audit.",
+    "reasoning": "1. Observation: A bright green 'X' or symbol is painted on the asphalt shoulder. 2. Rule: Temporary high-visibility markings are used by road crews to identify specific infrastructure points. 3. Conclusion: This indicates a recent or upcoming technical intervention at this specific kilometer point of the highway.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_025",
+    "source_file": "image (25).jpg",
+    "question": "Analyze the yellow plastic markers (bollards) on the white line. What is the primary physical function of these markers for the cyclists riding on the left?",
+    "answer": "They serve as a 'visual and tactile segregators' to prevent motorized vehicles from drifting into the cycle lane, creating a psychological barrier for cars and a safety buffer for bikes.",
+    "reasoning": "1. Observation: Low-profile yellow dividers are spaced along the bike lane boundary. 2. Rule: Separated cycle infrastructure uses physical cues to define exclusive right-of-way. 3. Conclusion: The markers reduce the risk of 'dooring' or lane-sharing accidents between the silver car and the cyclists.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_026",
+    "source_file": "image (26).jpg",
+    "question": "In this narrow residential alley, what does the white lettering on the pavement combined with the flared guardrail ends suggest about the traffic volume?",
+    "answer": "The infrastructure suggests a low-volume, single-lane 'Shared Zone' or 'One-Way' system where vehicles must yield at wider points or follow a specific entry protocol to avoid head-on conflicts.",
+    "reasoning": "1. Observation: A very narrow road with guardrails and ground text (likely 'Stop' or 'Slow' in Japanese). 2. Rule: Minimal road width requires strict traffic control markings to manage flow. 3. Conclusion: This is a high-caution zone where visual communication via ground signs is critical for navigation.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_027",
+    "source_file": "image (27).jpg",
+    "question": "Looking at the central bike path and the red signal for cars, what specific hazard is the white van currently posing to the pedestrian in the crosswalk?",
+    "answer": "The white van has overshot the stop line and is encroaching on the pedestrian crosswalk (the 'zebra' area), forcing the pedestrian to walk closer to moving traffic lanes.",
+    "reasoning": "1. Observation: The van is stationary but its front bumper is inside the white-dotted pedestrian zone. 2. Rule: Vehicles must stop behind the first solid line at a red light. 3. Conclusion: The van has committed a minor stopping violation that compromises the safety and path of the human crossing.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_028",
+    "source_file": "image (28).jpg",
+    "question": "Examine the overhead yellow signals and the track embedded in the asphalt on the far left. What specific vehicle type has right-of-way priority at this 'Peter Pl' junction?",
+    "answer": "Streetcars (Trams) have priority, indicated by the 'Transit Signal' (the vertical yellow signal) and the specialized rail infrastructure built into the road surface.",
+    "reasoning": "1. Observation: Rail tracks and specialized yellow signals are present. 2. Rule: Urban transit systems often have dedicated signal phases that override standard car signals. 3. Conclusion: Drivers must be vigilant of rail-bound vehicles that cannot swerve and have restricted stopping distances.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_029",
+    "source_file": "image (29).jpg",
+    "question": "Analyze the yellow sign on the left near the red-and-white barrel. Why is the motorcycle driver likely to encounter a dead-end if they continue straight?",
+    "answer": "The yellow sign explicitly states 'Msimbazi Street Closed,' indicating a full road closure and requiring all traffic to follow the 'Diversion' mentioned on the sign.",
+    "reasoning": "1. Observation: A regulatory warning sign and a physical barrier (barrel) are present. 2. Rule: Construction or closure signs dictate mandatory route changes. 3. Conclusion: Continuing on the current trajectory will lead to a physical obstruction, making the diversion the only viable legal route.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_030",
+    "source_file": "image (30).jpg",
+    "question": "Based on the position of the motorcyclist relative to the white chevron markings on the right, what maneuver is the rider currently performing?",
+    "answer": "The rider is performing an 'exit' or 'lane split' maneuver into a diverging lane, potentially crossing the 'gore' area (the chevroned neutral zone) if they do not merge quickly.",
+    "reasoning": "1. Observation: The motorcycle is positioned on the boundary of a lane split marked with white chevrons. 2. Rule: Chevron zones are neutral areas not intended for travel. 3. Conclusion: The rider is at a decision point; failing to commit to either the main road or the exit lane could result in a collision with the crash-attenuator or barrier ahead.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_031",
+    "source_file": "image (31).jpg",
+    "question": "Based on the state of the pedestrian signal and the woman waiting on the left, what hidden safety protocol is being followed even though no vehicles are currently in the immediate crosswalk?",
+    "answer": "The 'All-Pedestrian Phase' or 'Scramble' protocol is likely active, where all vehicle traffic is held at red lights (as seen with the stationary blue bus) to allow pedestrians to cross in all directions simultaneously.",
+    "reasoning": "1. Observation: Pedestrians are waiting/walking while a large bus is stationary at a green-facing angle. 2. Rule: Urban centers often use dedicated pedestrian intervals to eliminate turn-conflict accidents. 3. Conclusion: The infrastructure is prioritizing human safety over vehicle throughput in this high-density zone.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_032",
+    "source_file": "image (32).jpg",
+    "question": "Looking at the cobblestone texture and the 'La Feltrinelli' storefronts, why is the man in the dark coat walking in the center of the area rather than on a defined sidewalk?",
+    "answer": "The area is a 'Pedestrian-Prioritized Zone' or 'ZTL' (Limited Traffic Zone), where the lack of curbs and the uniform cobblestone surface indicate that the entire street width is a shared space where pedestrians have legal priority over occasional service vehicles.",
+    "reasoning": "1. Observation: There is no vertical separation (curbs) between the walking path and the shop entrances. 2. Rule: Shared-space urban design uses texture rather than barriers to manage speed and priority. 3. Conclusion: The infrastructure design encourages open movement and foot traffic in historic commercial districts.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_033",
+    "source_file": "image (33).jpg",
+    "question": "Based on the yellow solid line on the right and the position of the silver van, what is the mandatory lane-keeping rule for the driver of the black car currently occupying the center-left space?",
+    "answer": "The black car must remain in its current lane and is prohibited from merging right, as the solid yellow line denotes a strict 'No Lane Change' or 'No Overtaking' zone nearing the intersection.",
+    "reasoning": "1. Observation: A solid yellow longitudinal marking separates the traffic flow. 2. Rule: Solid yellow lines indicate a prohibition of lane switching for safety in high-conflict areas. 3. Conclusion: The driver is legally bound to their current lane to prevent side-swipe collisions as they approach the traffic signals.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_034",
+    "source_file": "image (34).jpg",
+    "question": "Analyze the overhead signals for the silver car and the orange bus. Why is the car likely to remain stopped even though the bus in the distance appears to be moving toward the intersection?",
+    "answer": "The silver car is facing a red light (illuminated clearly in the foreground signal head), which creates a safe clearance interval for the cross-traffic or transit vehicles like the bus to complete their maneuvers.",
+    "reasoning": "1. Observation: Foreground signals are red; an orange bus is approaching from the far distance. 2. Rule: Signal timing ensures that opposing flows do not enter the junction simultaneously. 3. Conclusion: The car is observing the 'Stop' command to maintain intersection safety and right-of-way logic.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_035",
+    "source_file": "image (35).jpg",
+    "question": "Looking at the heavy concrete barrier on the right and the dense trees, what primary safety function does this infrastructure serve for the vehicles traveling on the highway?",
+    "answer": "The barrier serves as both a 'Jersey Barrier' to prevent vehicles from exiting the roadway into the trees and a 'Sound/Privacy Screen' to mitigate environmental noise for any hidden residential areas behind the foliage.",
+    "reasoning": "1. Observation: A high, solid concrete wall separates the road from a dense forest. 2. Rule: Roadway barriers are designed to deflect vehicles back into the lane and provide acoustic shielding. 3. Conclusion: The infrastructure manages both the physical risk of off-road accidents and the environmental impact of high-speed traffic.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_036",
+    "source_file": "image (36).jpg",
+    "question": "Based on the 'Detour' and 'Road Closed' signs, why is the white utility truck in the distance likely the only vehicle allowed to proceed straight past the orange barriers?",
+    "answer": "The sign explicitly states 'Local Traffic Only,' implying that service vehicles, residents, or construction crews have exclusive legal access to the closed zone for essential work.",
+    "reasoning": "1. Observation: Barriers and multiple 'Detour' signs are present; a service truck is in the closed area. 2. Rule: Road closures with 'Local Traffic' exemptions allow authorized vehicles to bypass standard detours. 3. Conclusion: The truck is likely part of the crew performing the work that necessitated the closure.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_037",
+    "source_file": "image (37).jpg",
+    "question": "Inside this yellow-walled tunnel, what does the red 'X' signal in the distance above the right-most lane indicate to the drivers of the silver and blue cars?",
+    "answer": "x",
+    "reasoning": "1. Observation: Green downward arrows are visible for the left lanes, while a red 'X' is visible for the right. 2. Rule: Red 'X' signals on overhead gantries mean 'Do Not Enter or Stay in this Lane.' 3. Conclusion: Drivers must merge left immediately to avoid entering a closed or hazardous section of the tunnel.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_038",
+    "source_file": "image (38).jpg",
+    "question": "Analyze the combination of the 'STOP' sign and the blue circular 'Keep Right' arrow on the right. What is the mandatory sequence of actions for a driver turning right into this intersection?",
+    "answer": "The driver must first come to a complete stop at the line, then proceed only to the right of the traffic island as mandated by the blue arrow sign.",
+    "reasoning": "1. Observation: A red octagonal 'STOP' sign and a blue 'Keep Right' arrow are co-located. 2. Rule: Regulatory signs must be followed in sequence—cessation of movement followed by mandatory pathing. 3. Conclusion: The infrastructure forces a specific 'Stop-and-Direction' behavior to manage the complex junction geometry safely.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_039",
+    "source_file": "image (39).jpg",
+    "question": "Based on the position of the silver Ram pickup truck on the far left, why is its proximity to the white-post barrier a critical safety concern at highway speeds?",
+    "answer": "The driver is hugging the 'shoulder edge' or 'gore' area, which reduces the margin for error if they need to swerve to avoid a hazard in the center lanes.",
+    "reasoning": "1. Observation: The truck is traveling very close to the left-hand delineator posts. 2. Rule: High-speed travel requires centering within the lane to maximize reaction time. 3. Conclusion: The vehicle's positioning suggests either an imminent exit or a lack of lane discipline, increasing the risk of a side-barrier strike.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_040",
+    "source_file": "image (40).jpg",
+    "question": "Look at the 'P' sign on the right and the row of cars parked on the curve. What urban planning challenge does the blue-painted line on the asphalt likely address in this residential area?",
+    "answer": "The blue line indicates 'Paid' or 'Time-Limited' parking, used to manage the high demand for spaces in narrow historic streets and prevent long-term abandonment of vehicles.",
+    "reasoning": "1. Observation: A 'P' (Parking) sign and a blue line on the ground are visible in a curved street. 2. Rule: Color-coded curbs or lines differentiate between free, resident-only, and paid parking zones. 3. Conclusion: The infrastructure is using 'Demand-Based Pricing' or 'Regulation' to ensure turnover of parking spaces for residents and visitors.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_041",
+    "source_file": "image (41).jpg",
+    "question": "Based on the series of 'P' signs on the right and the yellow curb line, what is the legal implication for the silver car parked on the far right?",
+    "answer": "The car is likely in a 'Time-Restricted' or 'Permit-Only' zone, as the signs indicate regulated parking, while the yellow line on the left suggests a 'No Stopping' zone for the opposite side of the road to maintain lane width.",
+    "reasoning": "1. Observation: Blue 'P' signs are co-located with parking spaces; a yellow line is visible on the inner curb. 2. Rule: Blue signs denote permissions while yellow curb markings denote prohibitions. 3. Conclusion: The infrastructure manages high-density residential parking by strictly defining where vehicles can and cannot remain stationary to avoid blocking the narrow street.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_042",
+    "source_file": "image (42).jpg",
+    "question": "Analyze the position of the FedEx and UPS drop boxes. What specific urban design priority does their placement on this wide sidewalk indicate?",
+    "answer": "The placement indicates a 'Logistics Hub' priority, where the sidewalk is designed as a multimodal utility zone to facilitate rapid commercial exchange without blocking the primary pedestrian flow.",
+    "reasoning": "1. Observation: Multiple courier drop boxes and bike racks are clustered in a wide, paved area. 2. Rule: Strategic placement of utility nodes on sidewalks minimizes 'last-mile' delivery friction. 3. Conclusion: The infrastructure is optimized for urban e-commerce and logistical efficiency rather than just aesthetic landscaping.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_043",
+    "source_file": "image (43).jpg",
+    "question": "Given the 'Capco' dump truck's position and the yellow line, what maneuver must the camera-vehicle driver anticipate if the truck's rear trailer begins to swing right?",
+    "answer": "The driver must anticipate 'Off-Tracking' or a wide-turn sweep, as the articulated joints of the truck and flatbed trailer require significant lateral space that may cross the yellow line.",
+    "reasoning": "1. Observation: A multi-axle dump truck with a trailer is navigating a curve. 2. Rule: Long articulated vehicles do not follow the same path with their rear wheels as their front wheels. 3. Conclusion: To avoid a side-swipe collision, following vehicles must remain behind the yellow line until the truck has fully cleared the turn.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_044",
+    "source_file": "image (44).jpg",
+    "question": "Based on the overhead 'Route 1' sign and the ground arrows, which specific lane must a driver choose if they intend to access the 'Tobu Prefecture Office'?",
+    "answer": "The driver must stay in the left-most lane, as indicated by the left-pointing arrow on the blue gantry sign associated with the prefecture office destination.",
+    "reasoning": "1. Observation: Gantry signs provide directional text mapped to specific lanes. 2. Rule: Urban navigation relies on early lane selection based on gantry indicators. 3. Conclusion: The center and right lanes are dedicated to through-traffic (Route 1) and right turns, respectively, making the left lane the only legal path for the office.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_045",
+    "source_file": "image (45).jpg",
+    "question": "Look at the concrete 'checkered' pattern on the hillside to the left. What primary geological safety function does this infrastructure serve for the highway below?",
+    "answer": "It is a 'Soil Nail' or 'Slope Stabilization' grid designed to prevent landslides and rockfalls from reaching the highway during heavy rain or seismic activity.",
+    "reasoning": "1. Observation: A steep hill is covered in a concrete grid with recessed pockets. 2. Rule: Engineered slope reinforcements are necessary for roads cut into hillsides. 3. Conclusion: The infrastructure proactively manages the risk of natural debris blocking the high-speed transit corridor.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_046",
+    "source_file": "image (46).jpg",
+    "question": "Based on the dashed white line and the stone wall, what is the primary spatial restriction for the white van parked on the left cobbles?",
+    "answer": "The van is parked in a 'Service/Loading' area outside the active transit lane; the dashed line defines the exclusive path for cyclists or small vehicles to avoid the high stone wall.",
+    "reasoning": "1. Observation: A dashed line separates a smooth asphalt path from a cobbled area where a van is parked. 2. Rule: Pavement markings define the 'Active Travel' zone. 3. Conclusion: The van is stationary in a non-travel zone to allow the travel lane to remain clear for moving traffic along the riverbank.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_047",
+    "source_file": "image (47).jpg",
+    "question": "Analyze the distant gantry signs and the current lane positions. Why is the red car in the center-right lane likely to encounter high-speed merging traffic from the right in the next few seconds?",
+    "answer": "The highway layout and signage suggest an upcoming 'On-Ramp' merge point where the right-hand shoulder lane will narrow or combine with the main flow.",
+    "reasoning": "1. Observation: Overhead signs show diverging/converging routes; the road width is expanding on the right. 2. Rule: Merging zones require drivers in the right-most 'flow' lane to yield or adjust speed for entering vehicles. 3. Conclusion: The red car is in a 'Conflict Zone' where spatial awareness of entering traffic is critical.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_048",
+    "source_file": "image (48).jpg",
+    "question": "Look at the blue circular signs with white arrows on the left. What mandatory maneuver is required for a driver who reaches the specific point where the 'Pedestrian' sign is located?",
+    "answer": "The driver must follow the direction of the arrow (likely 'Keep Right' or 'Straight') to avoid entering the pedestrian crosswalk or a restricted transit lane.",
+    "reasoning": "1. Observation: A blue circular sign with a white arrow is positioned at a junction point. 2. Rule: Blue mandatory signs dictate the only legal path of travel. 3. Conclusion: The infrastructure uses these signs to prevent cars from accidentally entering the pedestrianized or bus-only sections of the street.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_049",
+    "source_file": "image (49).jpg",
+    "question": "Based on the red 'STOP' sign (PARE) and the crowded scooter parking, what is the primary hazard for a vehicle attempting to exit from the right behind the bushes?",
+    "answer": "The hazard is 'Obscured Sightlines'; the density of the parked scooters and the bushes creates a blind spot that prevents the driver from seeing cross-traffic before they pass the stop line.",
+    "reasoning": "1. Observation: A stop sign is positioned near a dense cluster of scooters and high foliage. 2. Rule: Safe intersection navigation requires a clear 'Sight Triangle.' 3. Conclusion: The urban clutter has compromised the safety infrastructure, requiring vehicles to 'creep' forward past the stop line to gain visibility.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_050",
+    "source_file": "image (50).jpg",
+    "question": "Analyze the state of the traffic lights and the 'Taxi' with the star-shaped roof sign. Why is the taxi likely to accelerate while the white car on the right remains cautious?",
+    "answer": "The taxi is responding to a 'Protected' green light for the main lane, while the white car is in a merging/turning position where it must yield to pedestrians or wait for a secondary signal phase.",
+    "reasoning": "1. Observation: Primary signals are green; a pedestrian is visible on the far right sidewalk near the white car. 2. Rule: Signal phases prioritize the main through-traffic flow. 3. Conclusion: The taxi has the legal Right-of-Way, whereas the white car is at a 'Point of Conflict' with the sidewalk traffic.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_051",
+    "source_file": "image (51).jpg",
+    "question": "Based on the overhead gantry signs visible under the bridge, which lane must the camera vehicle occupy to avoid an accidental detour into Downtown Louisville?",
+    "answer": "The camera vehicle should remain in the center or left lanes, as the green sign on the right explicitly states 'Downtown Louisville' is for the 'RIGHT LANE' only.",
+    "reasoning": "1. Observation: A large green destination sign specifies the right lane for Downtown. 2. Rule: Highway gantry signs assign specific lanes to geographical exits. 3. Conclusion: To continue through or toward the other destinations (Indianapolis/St. Louis seen on the left gantry), the driver must avoid the far-right lane.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_052",
+    "source_file": "image (52).jpg",
+    "question": "Analyze the green-painted lane in the center. Based on the 'END' sign on the utility pole, what change in road-user priority occurs at this specific point?",
+    "answer": "The dedicated bicycle lane ends here, meaning cyclists must now merge into the general traffic flow with motorized vehicles.",
+    "reasoning": "1. Observation: A green-colored pavement strip is paired with a sign that says 'END' above a bicycle icon. 2. Rule: Color-coded lanes provide protected space until formally terminated by signage. 3. Conclusion: The merge point creates a high-conflict zone where drivers and cyclists must negotiate shared space.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_053",
+    "source_file": "image (53).jpg",
+    "question": "Looking at the red circular sign with a black 'E' and a red slash, what is the immediate restriction for the area of the curb directly behind the tree?",
+    "answer": "Parking is strictly prohibited (No Estacionar), as indicated by the regulatory 'E' slash sign common in Spanish-speaking regions.",
+    "reasoning": "1. Observation: A red-bordered circular sign with a crossed-out 'E' is positioned on the sidewalk. 2. Rule: This symbol is the international standard for 'No Parking.' 3. Conclusion: Vehicles cannot be left stationary along this section of the sidewalk to ensure the travel lane remains unobstructed.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_054",
+    "source_file": "image (54).jpg",
+    "question": "Based on the green signal in the distance and the position of the yellow taxi, why is the bus on the left likely traveling at a lower speed than the center-lane traffic?",
+    "answer": "The bus is navigating a dedicated 'Transit' or 'Bus Only' lane, which often has lower speed limits or specific stopping requirements near the upcoming intersection.",
+    "reasoning": "1. Observation: A bus is in the far-left lane; a green light is visible ahead. 2. Rule: Large transit vehicles have different acceleration and braking profiles than passenger cars. 3. Conclusion: The bus is likely preparing for a stop or observing transit-specific lane regulations.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_055",
+    "source_file": "image (55).jpg",
+    "question": "Examine the orange ground markings (paint) on the asphalt. What hidden infrastructure activity do these marks indicate to the driver of the large 'Modelo' truck?",
+    "answer": "They indicate 'Utility Locates' for upcoming excavation or roadwork, marking the underground positions of gas, water, or electrical lines.",
+    "reasoning": "1. Observation: Bright orange spray-paint symbols and lines are scattered across the lane. 2. Rule: Color-coded ground markings are used by surveyors to prevent utility strikes. 3. Conclusion: Drivers should anticipate steel plates or road crews in this area in the near future.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_056",
+    "source_file": "image (56).jpg",
+    "question": "Analyze the pedestrian crossing (zebra lines) and the yellow signal pole. Why is the person in the white shirt 'creeping' into the street before the crosswalk begins?",
+    "answer": "They are likely utilizing a 'Pedestrian Refuge' or waiting for a specific signal phase, as the wide intersection design requires multiple stages to cross safely.",
+    "reasoning": "1. Observation: A pedestrian is standing between the curb and the main zebra path. 2. Rule: Large urban junctions use 'Refuge Islands' to break up long crossing distances. 3. Conclusion: The infrastructure design acknowledges that pedestrians cannot clear the full width in one light cycle.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_057",
+    "source_file": "image (57).jpg",
+    "question": "Based on the convex mirror mounted on the signal pole, what specific blind-spot hazard is the infrastructure attempting to mitigate for drivers at this junction?",
+    "answer": "The mirror allows drivers to see around the sharp corner of the historic building to detect oncoming pedestrians or cyclists hidden from direct view.",
+    "reasoning": "1. Observation: A round, convex safety mirror is positioned high on the traffic signal pole. 2. Rule: Convex mirrors are installed where 'Sight Triangles' are blocked by permanent structures. 3. Conclusion: Drivers must check this mirror before initiating a turn to ensure the 'hidden' zone is clear.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_058",
+    "source_file": "image (58).jpg",
+    "question": "Looking at the white 'Turn Only' arrows on the pavement, what is the mandatory maneuver for a vehicle currently in the far-left lane?",
+    "answer": "The vehicle must turn left, as the solid white arrow curve and the lack of a straight-through option define this as a mandatory turn lane.",
+    "reasoning": "1. Observation: A curved white arrow is painted in the left lane. 2. Rule: Pavement arrows denote mandatory maneuvers when they lack a straight 'stem.' 3. Conclusion: A driver in this lane who attempts to go straight would be in violation of the lane-use regulations.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_059",
+    "source_file": "image (59).jpg",
+    "question": "Analyze the '30' sign and the 'Poupatempo' signage. What is the logical reason for the drastically reduced speed limit on this wide, open-looking road?",
+    "answer": "The road likely borders a high-pedestrian 'Public Service' zone (Poupatempo), requiring low speeds to ensure the safety of citizens entering or exiting the facility.",
+    "reasoning": "1. Observation: A '30 km/h' limit is posted next to a sign for a government service center. 2. Rule: Speed limits are lowered near 'Sensitive Sites' (schools, hospitals, service centers). 3. Conclusion: The infrastructure prioritizes the safety of vulnerable road users over vehicle speed in this specific corridor.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_060",
+    "source_file": "image (60).jpg",
+    "question": "Based on the three red-bordered triangle signs with circular arrows, what complex intersection type is the driver about to enter?",
+    "answer": "A multi-lane Roundabout (Rotary), as the 'Give Way' triangles with the roundabout symbol indicate a circular traffic flow ahead.",
+    "reasoning": "1. Observation: Three distinct 'Roundabout' warning/yield signs are visible. 2. Rule: Triangles with circular arrows mandate yielding to traffic already in the circle. 3. Conclusion: The driver must slow down and prepare to yield to the right (or left, depending on the country) before entering the intersection.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_061",
+    "source_file": "image (61).jpg",
+    "question": "Based on the green street sign and the current traffic light state, why is the silver car on the right remaining stationary despite the open lane ahead?",
+    "answer": "The car is observing a red traffic light at the intersection of Holland Ave, which is synchronized to allow cross-traffic or pedestrians to clear the junction safely.",
+    "reasoning": "1. Observation: A clear red light is visible on the signal head; a street sign identifies 'Holland Ave'. 2. Rule: Red signals mandate a full stop at the stop line. 3. Conclusion: The driver is following standard regulatory signals to prevent a collision with the cross-flow traffic or the bus approaching the turn.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_062",
+    "source_file": "image (62).jpg",
+    "question": "Looking at the dark smoke in the distance and the unpaved road surface, what is the primary environmental hazard for a driver traveling at high speed at this location?",
+    "answer": "The primary hazard is significantly reduced traction and potential engine intake contamination due to dust and airborne particulates from the unpaved surface and nearby fire.",
+    "reasoning": "1. Observation: The road is dirt/gravel; heavy smoke is rising in the background. 2. Rule: Loose surfaces provide lower friction coefficients than asphalt; smoke reduces visibility and air quality. 3. Conclusion: A driver must maintain lower speeds and increased following distance to manage the combined risks of skidding and sudden visibility drops.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_063",
+    "source_file": "image (63).jpg",
+    "question": "Based on the 'CTOП' sign on the right and the red light with a digital countdown, what is the mandatory requirement for the silver car currently waiting in the foreground?",
+    "answer": "The car must remain fully stopped behind the stop line until the '30' second countdown reaches zero and the signal turns green.",
+    "reasoning": "1. Observation: A red signal with a '30' second timer is active; a 'CTOП' (Stop) sign defines the legal stopping point. 2. Rule: Digital timers provide temporal data to help drivers anticipate signal changes, but the red state remains legally binding. 3. Conclusion: The driver is in compliance with Russian traffic laws intended to manage intersection wait times and reduce idling accidents.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_064",
+    "source_file": "image (64).jpg",
+    "question": "Analyze the yellow-hatched 'box junction' markings. Why is the double-decker Stagecoach bus on the left at a full stop even though there is space directly in front of it?",
+    "answer": "The bus driver is adhering to the 'Don't Block the Box' rule, ensuring they do not enter the hatched area unless their exit is entirely clear, preventing gridlock.",
+    "reasoning": "1. Observation: A yellow-hatched box is painted on the road; traffic ahead is dense. 2. Rule: Box junctions must remain clear for cross-traffic. 3. Conclusion: By stopping before the hatching, the bus maintains urban mobility for the intersecting street even if the main flow remains stalled.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_065",
+    "source_file": "image (65).jpg",
+    "question": "Look at the green 'bike-box' area and the green traffic light. What is the immediate priority for the black car on the left relative to the cyclist waiting at the curb?",
+    "answer": "The black car must yield to the cyclist if the cyclist intends to enter the lane, as the green bike-box and signals indicate a prioritized cycling corridor.",
+    "reasoning": "1. Observation: A green light is active; a cyclist and a black car are at the same stop-line level. 2. Rule: Painted bike boxes allow cyclists to position themselves ahead of traffic to improve visibility and safety during turns. 3. Conclusion: The infrastructure is designed to give non-motorized users a temporal and spatial advantage to clear the conflict point first.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_066",
+    "source_file": "image (66).jpg",
+    "question": "Based on the long-range perspective and the white-post delineators, what is the primary spatial hazard for the silver car traveling in the center lane?",
+    "answer": "The hazard is an 'Unexpected Merge' from the right, as the road layout and delineators suggest a merging lane or exit ramp hidden by the grade of the road.",
+    "reasoning": "1. Observation: Traffic is flowing on a wide arterial road; delineators mark the shoulder. 2. Rule: Delineator spacing often changes or disappears at merge/exit points. 3. Conclusion: The driver must monitor their blind spots for vehicles entering from the right at high speed.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_067",
+    "source_file": "image (67).jpg",
+    "question": "Looking at the overhead gantry lights (red/yellow/green) and the position of the red truck, what is the current lane status for the camera-vehicle?",
+    "answer": "The camera vehicle is in a 'Restricted' or 'Closing' lane, as indicated by the yellow-facing or potentially red signals on the overhead gantry.",
+    "reasoning": "1. Observation: Multiple lane-control signals are positioned over the highway. 2. Rule: Lane-use control signals manage tidal flow or lane closures. 3. Conclusion: To avoid a collision with slow-moving freight (red truck) or maintenance zones, the driver must move to the lanes marked with green arrows.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_068",
+    "source_file": "image (68).jpg",
+    "question": "Analyze the white solid line and the concrete barrier on the left. Why is the silver car maintaining a high distance from the guardrail even though the road is straight?",
+    "answer": "The driver is maintaining a 'Safety Buffer' to manage the risk of wind gusts or hydroplaning in the narrow shoulder area between the white line and the barrier.",
+    "reasoning": "1. Observation: A car is traveling centered in the lane away from the concrete barrier. 2. Rule: High-speed lanes adjacent to barriers have a reduced 'Error Margin'. 3. Conclusion: Proper lane discipline prevents the 'Tunnel Effect' where drivers feel pulled toward the physical infrastructure at speed.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_069",
+    "source_file": "image (69).jpg",
+    "question": "Based on the green light and the 'Hampshire Rd' sign, what is the primary maneuver the CargoTec truck is likely to perform in the next few seconds?",
+    "answer": "The truck is likely to continue straight or make a wide turn, as its position in the center-left lane is optimized for clearing the narrow intersection corner.",
+    "reasoning": "1. Observation: The truck is centered in a lane under a green signal at a named intersection. 2. Rule: Large freight vehicles take wider paths to avoid hitting curbs. 3. Conclusion: Neighboring drivers must yield space to the truck to prevent a side-swipe during its navigation of the Hampshire Rd junction.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_070",
+    "source_file": "image (70).jpg",
+    "question": "Analyze the 'STOP' pavement marking and the woman with the stroller. Why is the silver car on the left at a full stop even though there is no cross-traffic visible?",
+    "answer": "The driver is obeying the mandatory 'STOP' line and yielding to the pedestrian (woman with stroller) who has the right-of-way in the crosswalk.",
+    "reasoning": "1. Observation: A large 'STOP' is painted on the road; a pedestrian is entering the path. 2. Rule: Pavement stops are legally as binding as signage; pedestrians in crosswalks have absolute priority. 3. Conclusion: The infrastructure prioritizes the most vulnerable road user (pedestrian with infant) over the vehicle's speed.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_071",
+    "source_file": "image (71).jpg",
+    "question": "Based on the series of dotted white lines curving across the intersection, what is the primary spatial instruction for the cyclist proceeding toward the blue tram?",
+    "answer": "The cyclist is being guided through a 'Conflict Zone' where they must maintain a specific path to stay clear of the tram's fixed rail trajectory.",
+    "reasoning": "1. Observation: A blue-and-white tram is on fixed rails; dotted guide lines curve across the asphalt. 2. Rule: Pavement markings in multi-modal intersections define safe passage zones for non-rail vehicles. 3. Conclusion: The infrastructure uses visual cues to prevent lateral collisions between cyclists and rail-bound transit in a high-traffic urban core.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_072",
+    "source_file": "image (72).jpg",
+    "question": "Looking at the 'Original Joe's' storefront and the white 'Right Turn Only' sign, what is the mandatory requirement for a driver occupying the far-right lane next to the crosswalk?",
+    "answer": "The driver must turn right onto Columbus Avenue, as the regulatory sign prohibits any other direction of travel from that specific lane.",
+    "reasoning": "1. Observation: A white regulatory sign with a right-curving arrow and 'ONLY' is posted on the corner. 2. Rule: Lane-use control signs mandate specific maneuvers to manage intersection flow. 3. Conclusion: A vehicle in this lane is legally bound to turn, ensuring they do not conflict with the pedestrian traffic currently using the zebra crossing.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_073",
+    "source_file": "image (73).jpg",
+    "question": "Analyze the overhead gantry. Given the active green 'Straight' arrow and the square 'No Left Turn' sign, what is the restricted maneuver for the grey SUV in the foreground?",
+    "answer": "The SUV is prohibited from making a left turn into the gas station or side road, even though the primary signal is green.",
+    "reasoning": "1. Observation: A green upward arrow signal is active; a 'No Left Turn' regulatory sign is mounted on the same mast arm. 2. Rule: Supplemental signs override general signal indications for specific maneuvers. 3. Conclusion: The infrastructure is designed to prevent high-speed T-bone accidents across multiple lanes of oncoming traffic at this wide junction.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_074",
+    "source_file": "image (74).jpg",
+    "question": "Based on the green directional sign for 'Ibaraki Airport' and the white shoulder line, what is the immediate navigational requirement for a driver intending to catch a flight?",
+    "answer": "The driver must prepare to exit to the left immediately, following the arrow on the green gantry sign that indicates the airport path.",
+    "reasoning": "1. Observation: A green gantry sign with a plane icon and an arrow points to the left. 2. Rule: Highway gantry signs provide lane-specific exit instructions. 3. Conclusion: To stay in compliance with the route to Ibaraki Airport, the vehicle must merge across the solid white line at the upcoming diverge point.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_075",
+    "source_file": "image (75).jpg",
+    "question": "Looking at the position of the black Mazda SUV and the traffic light in the distance, why is the vehicle traveling at a lower speed than the surrounding architecture suggests?",
+    "answer": "The vehicle is approaching a signal-controlled intersection in a dense urban zone, requiring reduced speed to react to potential pedestrian crossings or signal changes.",
+    "reasoning": "1. Observation: A black SUV is centered in a multi-lane road; a green signal is visible but far ahead; pedestrians are on the sidewalk. 2. Rule: Urban 'Avenues' with close-set buildings create sightline restrictions. 3. Conclusion: The driver must observe a 'Defensive Speed' to manage the high volume of potential conflict points with other vehicles and pedestrians seen in the periphery.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_076",
+    "source_file": "image (76).jpg",
+    "question": "Examine the orange 'Bussar' and the stop lights of the green car. Why is the bus positioned in the far-right lane despite the heavy traffic in the center lanes?",
+    "answer": "The bus is likely operating in a dedicated transit lane or preparing for a scheduled stop at the upcoming intersection to board or alight passengers.",
+    "reasoning": "1. Observation: A large orange transit bus is in the right-most lane; cars in the left lanes have active brake lights. 2. Rule: Public transit vehicles often have prioritized right-hand lane access to facilitate passenger logistics. 3. Conclusion: The bus's positioning is a function of its operational route rather than standard lane-choice logic.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_077",
+    "source_file": "image (77).jpg",
+    "question": "Inside this open-air urban tunnel/gantry area, what does the red circular light above the center-right lane indicate to the white van driver?",
+    "answer": "The red light is a 'Lane Use Control Signal' indicating that the lane is closed ahead, requiring the van to merge into an adjacent lane marked with a green arrow.",
+    "reasoning": "1. Observation: Red signals are mounted overhead for specific lanes; traffic is dense. 2. Rule: Overhead lane signals manage congestion and incidents by opening or closing specific paths. 3. Conclusion: The van driver must perform a spatial maneuver to avoid a stationary hazard or a closed section of the arterial road.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_078",
+    "source_file": "image (78).jpg",
+    "question": "Analyze the white 'Turn Only' arrows on the pavement. What maneuver is prohibited for the blue Citroen currently occupying the center lane?",
+    "answer": "The blue car is prohibited from making a left turn; it must proceed straight as indicated by the forward-pointing pavement arrow in its current lane.",
+    "reasoning": "1. Observation: A forward arrow is painted in the center lane; left-turn arrows are in the adjacent lane. 2. Rule: Pavement markings dictate mandatory lane-use. 3. Conclusion: To maintain safe traffic flow and avoid a side-swipe collision with turning vehicles on the left, the blue car must follow the 'Straight-Only' instruction.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_079",
+    "source_file": "image (79).jpg",
+    "question": "Based on the orange 'Road Work' sign on the right and the green signal at 'Bellechasse' street, what hidden hazard should the grey Nissan driver anticipate?",
+    "answer": "The driver should anticipate a lane narrowing or road crews ahead, as the orange construction sign warns of temporary changes to the standard infrastructure.",
+    "reasoning": "1. Observation: A green signal is active; an orange diamond-shaped warning sign is positioned on the right shoulder. 2. Rule: Construction signs signal a deviation from normal road conditions. 3. Conclusion: Despite the green light, the driver must maintain a 'Cautionary Speed' to safely navigate potential obstacles or workers not yet visible in the foreground.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_080",
+    "source_file": "image (80).jpg",
+    "question": "Look at the green signal with a right-turn arrow and the 'NO ENTRY' sign on the left. What is the mandatory path for a vehicle at the front of the queue wishing to enter the Brisbane center?",
+    "answer": "The vehicle must follow the green arrow to the right, as the 'NO ENTRY' sign explicitly prohibits entering the street directly to the left.",
+    "reasoning": "1. Observation: A green right-turn arrow is active; a red 'NO ENTRY' sign is visible on a secondary pole. 2. Rule: Regulatory signs prohibit entry into one-way or restricted streets. 3. Conclusion: The infrastructure forces a one-way circulatory flow to prevent head-on collisions at this complex urban junction.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_101",
+    "source_file": "image (101).jpg",
+    "question": "Based on the high-visibility gear worn by the personnel in the center, what is the primary spatial instruction for a pedestrian approaching the tunnel from the foreground?",
+    "answer": "The pedestrian should remain on the designated paved sidewalk and avoid the roadway, as active construction coordination and vehicle management are occurring in the tunnel's approach.",
+    "reasoning": "1. Observation: Multiple workers in orange and yellow safety gear are positioned in the roadway near a tunnel mouth. 2. Rule: Construction zones require strict separation of non-authorized foot traffic from work areas. 3. Conclusion: The infrastructure is temporarily prioritized for service vehicles, and pedestrians must use the defined sidewalk to avoid conflict with workers or site machinery.",
+    "reasoning_type": "spatial/legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_102",
+    "source_file": "image (102).jpg",
+    "question": "Analyze the red circular sign with a white horizontal bar on the corner. What is the mandatory restriction for a vehicle attempting to turn right into that specific street?",
+    "answer": "The vehicle is strictly prohibited from entering that street, as the sign is the international standard for 'No Entry' (Wrong Way).",
+    "reasoning": "1. Observation: A red circular sign with a white bar is mounted near a pedestrian crossing. 2. Rule: Regulatory 'No Entry' signs prohibit all vehicular access from that direction. 3. Conclusion: The infrastructure forces a one-way flow to ensure the pedestrian crosswalk and retail storefronts remain safe from oncoming traffic conflicts.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_103",
+    "source_file": "image (103).jpg",
+    "question": "Looking at the large '30' painted on the road and the triangular sign ahead, what is the logical speed requirement for the blue car in the center lane?",
+    "answer": "The car must maintain a speed at or below 30 km/h and prepare to yield at the upcoming junction indicated by the red-bordered triangle.",
+    "reasoning": "1. Observation: Surface markings show '30'; a red-bordered yield triangle is visible in the distance. 2. Rule: Painted speed limits and triangular signs establish traffic calming and right-of-way priority. 3. Conclusion: The driver is in a high-caution zone, likely due to the proximity of the community facilities (bowling/seminar icons) seen on the left building.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_084",
+    "source_file": "image (84).jpg",
+    "question": "Analyze the green 'Ibaraki Airport' sign. How much distance does the driver have to merge before the exit ramp begins according to the pavement markings?",
+    "answer": "The driver must merge immediately, as the dashed white line is transitioning into a solid white line, indicating the start of the dedicated exit lane.",
+    "reasoning": "1. Observation: Green gantry sign shows airport exit; white shoulder lines are narrowing. 2. Rule: Solid white lines denote the boundary of an exit 'gore' or ramp start where lane changes are restricted. 3. Conclusion: The spatial window for a legal merge is closing.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_085",
+    "source_file": "image (85).jpg",
+    "question": "Why is the road surface in the foreground covered in orange spray-paint markings near the 'Münkel' sign?",
+    "answer": "The markings indicate underground utility locations (gas, water, or electric) for upcoming road maintenance or construction.",
+    "reasoning": "1. Observation: Bright orange ground paint in specific patterns. 2. Rule: Standard color-coding (APWA) uses orange for telecommunications/power or general construction marking. 3. Conclusion: Drivers should expect infrastructure work or surface disturbances in this zone.",
+    "reasoning_type": "causal",
+    "difficulty": "medium (improvised: anchor on 'Münkel')"
+  },
+  {
+    "image_id": "TRF_086",
+    "source_file": "image (86).jpg",
+    "question": "What is the primary hazard for a pedestrian attempting to use the zebra crossing given the state of the white truck on the right?",
+    "answer": "The truck is potentially obscuring the 'Sight Triangle' for drivers approaching the crossing from the right, creating a blind spot.",
+    "reasoning": "1. Observation: A large white box truck is parked/stopped near the edge of a zebra crossing. 2. Rule: Safe crossings require clear visibility between drivers and pedestrians. 3. Conclusion: High-profile vehicles near crossings increase the risk of 'hidden' pedestrian accidents.",
+    "reasoning_type": "causal",
+    "difficulty": "easy (leaky: uses 'hazard' and 'truck')"
+  },
+  {
+    "image_id": "TRF_087",
+    "source_file": "image (87).jpg",
+    "question": "Based on the yellow line on the left and the billboard in the distance, why is the yellow school bus maintaining a center-lane position?",
+    "answer": "The bus is following the established traffic flow and staying clear of the grass shoulder (marked by the yellow line) to ensure safety and stability at speed.",
+    "reasoning": "1. Observation: Yellow bus in center lane; yellow shoulder line on left. 2. Rule: Yellow solid lines denote the inner edge of the roadway/shoulder. 3. Conclusion: The bus is maintaining standard lane discipline for high-clearance vehicles.",
+    "reasoning_type": "spatial",
+    "difficulty": "medium (improvised: anchor on 'billboard')"
+  },
+  {
+    "image_id": "TRF_088",
+    "source_file": "image (88).jpg",
+    "question": "Looking at the heavy snow and the green traffic signal, what is the most significant logical danger for the dark car approaching the intersection?",
+    "answer": "Increased braking distance and potential 'black ice' or slush build-up, which may cause the car to skid through the intersection despite the green light.",
+    "reasoning": "1. Observation: Deep snow on shoulders; wet/slushy asphalt; green signal. 2. Rule: Low temperatures and precipitation reduce tire friction coefficients. 3. Conclusion: Causal logic dictates that the driver must brake much earlier than usual to safely navigate the junction.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_089",
+    "source_file": "image (89).jpg",
+    "question": "Analyze the wide zebra crossing and the overhead wires. Why is the red light likely to last longer than a standard intersection phase?",
+    "answer": "The intersection is a high-volume multimodal hub (evidenced by tram/bus wires and wide crossings), likely requiring an 'all-pedestrian' or 'transit-priority' phase.",
+    "reasoning": "1. Observation: Extremely wide zebra path; overhead catenary wires. 2. Rule: Complex urban junctions with rail/transit integration use longer cycles to clear large crowds and transit vehicles. 3. Conclusion: The infrastructure manages high-density conflict by extending clear intervals.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_090",
+    "source_file": "image (90).jpg",
+    "question": "What maneuver is the green BMW on the left prohibited from making based on the white pavement arrows?",
+    "answer": "The car is prohibited from going straight; it must follow the mandatory left-turn arrow painted in its lane.",
+    "reasoning": "1. Observation: A large white curved arrow points left in the BMW's lane. 2. Rule: Pavement arrows without a straight 'stem' indicate a mandatory turn. 3. Conclusion: The infrastructure forces lane separation to avoid collisions with the heavy machinery (backhoe) on the right.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy (leaky: mentions 'BMW' and 'arrows')"
+  },
+  {
+    "image_id": "TRF_091",
+    "source_file": "image (91).jpg",
+    "question": "Based on the series of dotted guide lines and the road's curvature, what is the primary hazard for a driver failing to stay within the marked lane?",
+    "answer": "The primary hazard is a collision with the guardrail or an off-road excursion into the dense forest, as the lines indicate a sharp blind curve.",
+    "reasoning": "1. Observation: Sharp curve with dashed center lines and white edge markings. 2. Rule: Road markings define the safe travel corridor on mountainous grades. 3. Conclusion: The infrastructure manages centrifugal force risks by visually guiding the driver's steering arc.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_092",
+    "source_file": "image (92).jpg",
+    "question": "Why is the red bus stopped behind the white line despite the lack of immediate cross-traffic?",
+    "answer": "The bus is observing a red traffic light, which is synchronized to allow pedestrians or unseen vehicles from the left gantry to clear the intersection.",
+    "reasoning": "1. Observation: Red light is illuminated on the signal head; bus is stationary at the stop bar. 2. Rule: Red signals mandate a full stop regardless of perceived traffic volume. 3. Conclusion: Regulatory compliance ensures safety at this multi-modal transit junction.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy (leaky: uses 'bus' and 'stopped')"
+  },
+  {
+    "image_id": "TRF_093",
+    "source_file": "image (93).jpg",
+    "question": "Analyze the red circular signs with arrows. What maneuver is prohibited for the driver of the black car nearing the bridge?",
+    "answer": "The driver is prohibited from making a U-turn or a left turn, as indicated by the red-bordered prohibitory signs.",
+    "reasoning": "1. Observation: Red-slashed circular signs are positioned on both sides of the roadway. 2. Rule: Prohibitory signs with arrows denote illegal directional maneuvers. 3. Conclusion: The infrastructure forces forward flow to prevent head-on collisions on the narrow bridge approach.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_094",
+    "source_file": "image (94).jpg",
+    "question": "Looking at the blue circular sign and the zebra crossing, what is the mandatory instruction for a vehicle approaching from the right foreground?",
+    "answer": "The vehicle must keep left and yield to pedestrians, as indicated by the blue 'Keep Left' arrow and the pedestrian crossing markings.",
+    "reasoning": "1. Observation: Blue circle with a white arrow points down/left; zebra stripes on asphalt. 2. Rule: Blue mandatory signs dictate path; zebra stripes give pedestrians priority. 3. Conclusion: The driver must perform a spatial merge while monitoring for human traffic.",
+    "reasoning_type": "spatial/legal",
+    "difficulty": "medium (improvised: uses sign color as clue)"
+  },
+  {
+    "image_id": "TRF_095",
+    "source_file": "image (95).jpg",
+    "question": "Why is the white delivery truck stopped in the middle of this narrow urban street instead of pulling to the curb?",
+    "answer": "The truck is likely performing a loading/unloading task in a shared-use zone where the narrow street width prevents standard parallel parking.",
+    "reasoning": "1. Observation: High-clearance truck is stationary in the travel lane; cars are parked on both sides. 2. Rule: Logistical needs in dense historic centers often necessitate 'double-parking' or lane blocking. 3. Conclusion: The urban geometry creates a conflict between transit flow and commercial logistics.",
+    "reasoning_type": "causal",
+    "difficulty": "medium (improvised: anchor on 'truck' and 'narrow')"
+  },
+  {
+    "image_id": "TRF_096",
+    "source_file": "image (96).jpg",
+    "question": "Based on the green traffic lights and the white stop lines, why is the white car in the center lane proceeding cautiously?",
+    "answer": "The driver is navigating a complex multi-lane intersection and must monitor for pedestrians or turning vehicles that share the green-light phase.",
+    "reasoning": "1. Observation: Multiple green signals are active; wide intersection with complex markings. 2. Rule: Intersections require high situational awareness even during 'Go' phases. 3. Conclusion: The driver is following defensive driving protocols to manage potential cross-modal conflicts.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_097",
+    "source_file": "image (97).jpg",
+    "question": "What is the primary visual instruction provided by the blue gantry sign for the light-blue car approaching the junction?",
+    "answer": "The car must follow the 'Straight' path toward the city center (Fontana area) as indicated by the lane-specific gantry arrows.",
+    "reasoning": "1. Observation: Gantry signs align with the lanes; blue car is in the center-left lane. 2. Rule: Lane-use gantry signs provide navigational guidance before junctions. 3. Conclusion: The driver is correctly positioned for through-traffic flow.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy (leaky: identifies car color and sign type)"
+  },
+  {
+    "image_id": "TRF_098",
+    "source_file": "image (98).jpg",
+    "question": "Analyze the 'PANKRÁC' sign and the lane arrows. Which lane should the white bus on the right occupy to reach the designated parking zone?",
+    "answer": "The bus should occupy the far-right lane, as the gantry sign features a 'P' icon with a bus silhouette over the rightward-pointing arrow.",
+    "reasoning": "1. Observation: Gantry sign has destination 'Pankrác' on the left and a parking symbol on the right. 2. Rule: Visual icons on signage indicate vehicle-specific instructions (e.g., bus parking). 3. Conclusion: The bus is already in the correct spatial position to follow the regulatory guidance.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_099",
+    "source_file": "image (99).jpg",
+    "question": "Based on the high density of white bollards and the black-and-white patterns, what is the primary safety function of the road edges?",
+    "answer": "They serve as high-visibility delineators to prevent vehicles from encroaching on the pedestrian sidewalk or the garden wall in low-light conditions.",
+    "reasoning": "1. Observation: Closely spaced bollards with high-contrast painting line the road. 2. Rule: Visual delineators prevent runoff road accidents and protect infrastructure. 3. Conclusion: The design prioritizes the physical separation of vehicle kinetic energy from static building structures.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_100",
+    "source_file": "image (100).jpg",
+    "question": "Why is the red van on the left positioned differently than the parked silver car ahead of it?",
+    "answer": "The red van is an active travel vehicle navigating the street, whereas the silver car is stationary in a designated parking lane.",
+    "reasoning": "1. Observation: Red van is in the main asphalt flow; silver car is parallel to the curb. 2. Rule: Urban streets differentiate between the 'Travel Zone' and 'Storage Zone.' 3. Conclusion: The driver of the van must maintain speed to avoid blocking the flow behind the red truck seen in the periphery.",
+    "reasoning_type": "spatial",
+    "difficulty": "easy (leaky: describes car colors and state)"
+  },
+  {
+    "image_id": "TRF_101",
+    "source_file": "image (101).jpg",
+    "question": "Analyze the red-bordered sign with a blue circle and red slash. Why is a large transit vehicle prohibited from remaining stationary in the lower right area?",
+    "answer": "The sign is a 'No Parking' (No Aparcar) regulatory sign specifically marked 'GIR BUS,' indicating the space must remain clear to allow buses the spatial clearance necessary to execute a turnaround or sharp curve.",
+    "reasoning": "1. Observation: A regulatory sign with a red-slashed blue circle and the text 'GIR BUS' is present. 2. Rule: This specific supplementary text reserves the area for vehicular maneuvering. 3. Conclusion: Any stationary vehicle in this zone would physically obstruct the 'off-tracking' path required by long-wheelbase transit vehicles.",
+    "reasoning_type": "legal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_102",
+    "source_file": "image (102).jpg",
+    "question": "Based on the series of 'Give Way' (Yield) triangles and the central roundabout geometry, which vehicle currently has the legal Right-of-Way?",
+    "answer": "Vehicles already circulating within the roundabout have the Right-of-Way over vehicles entering from the foreground, as indicated by the inverted triangle yield signs and transverse dashed lines.",
+    "reasoning": "1. Observation: Red-bordered inverted triangle signs are positioned at the entrance of the circular junction. 2. Rule: Entering traffic must yield to traffic already in the circulatory roadway. 3. Conclusion: The infrastructure manages high-conflict flow by prioritizing existing momentum within the circle.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_103",
+    "source_file": "image (103).jpg",
+    "question": "Looking at the blue 'P' sign and the white dashed center line, what is the primary spatial restriction for the silver car parked on the left?",
+    "answer": "The car is positioned in a designated 'Service/Loading' area, which must be accessed by crossing the raised curb, but it must not extend into the narrow bike path demarcated by the parallel stone boundary.",
+    "reasoning": "1. Observation: A blue parking sign with service icons is co-located with a narrow asphalt lane. 2. Rule: Pavement markings and signs define the boundary between vehicle storage and active travel (cycling). 3. Conclusion: The infrastructure forces a tight spatial alignment to prevent 'dooring' hazards for cyclists using the central lane.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_104",
+    "source_file": "image (104).jpg",
+    "question": "Based on the red-bordered triangle sign and the white dashed lines, what is the mandatory action for the cyclist approaching the bridge?",
+    "answer": "The cyclist must prepare to yield or stop, as the red-bordered triangle is a 'Give Way' sign indicating that the road ahead (likely a bridge or single-lane crossing) requires yielding to oncoming or priority traffic.",
+    "reasoning": "1. Observation: A yield sign is positioned near a narrowing point in the road. 2. Rule: Inverted triangles mandate yielding to traffic on the intersecting or main path. 3. Conclusion: The infrastructure uses these cues to manage flow at a physical bottleneck where two vehicles cannot pass simultaneously.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_105",
+    "source_file": "image (105).jpg",
+    "question": "Analyze the white 'V' marking on the asphalt near the red-slashed circular sign. Why is the white car on the left likely to remain stationary even if the path ahead is clear?",
+    "answer": "The car is positioned behind a 'Stop' or 'Yield' line at an intersection where the red-slashed sign prohibits a specific maneuver (likely a left turn or entry), forcing the driver to wait for an alternate signal or gap.",
+    "reasoning": "1. Observation: A diagonal white line ('V' junction marker) and a prohibitory sign are present. 2. Rule: Pavement markers define the legal limit of an approach. 3. Conclusion: The driver is following the regulatory hierarchy, prioritizing the 'No Entry' or 'No Turn' sign over the visual openness of the road.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_106",
+    "source_file": "image (106).jpg",
+    "question": "Look at the 'visu-l' and 'ProAct' signs. What does the red-slashed blue circle with a black arrow below it indicate about the maneuver for a vehicle exiting the cobbled area?",
+    "answer": "The sign indicates a 'No Parking/No Waiting' zone that ends at this point, and the arrow mandates a specific turn direction (likely 'No Right Turn') to prevent entering a one-way street.",
+    "reasoning": "1. Observation: A prohibitory sign is paired with a mandatory direction arrow. 2. Rule: Red-slashed circles denote prohibitions; black arrows on white backgrounds denote mandatory directions. 3. Conclusion: The infrastructure forces a leftward flow to protect the pedestrian zone marked by the grey metal gate.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_107",
+    "source_file": "image (107).jpg",
+    "question": "Based on the green gantry sign for '75 Coronado EXIT ONLY', what is the immediate lane-use requirement for the silver car in the center-right lane?",
+    "answer": "The car must exit the highway if it stays in its current lane, as the downward-pointing arrows and 'EXIT ONLY' text denote a lane drop/mandatory diverge.",
+    "reasoning": "1. Observation: A gantry sign specifies a destination and a mandatory action for the lane below. 2. Rule: 'Exit Only' signs mean the lane will not continue on the main route. 3. Conclusion: The driver must perform a spatial maneuver to the left if they wish to stay on '5 SOUTH'.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_108",
+    "source_file": "image (108).jpg",
+    "question": "Analyze the white arrow on the ground pointing toward the stone wall. What is the logical navigational instruction for a driver at this diverge point?",
+    "answer": "The arrow indicates the 'Exit' (出口) path from a parking or scenic area, requiring the driver to merge onto the lower road while yielding to the main flow restricted by the stone retaining wall.",
+    "reasoning": "1. Observation: Pavement text '出口' (Exit) and a directional arrow point toward a lower grade. 2. Rule: Visual markers guide vehicles through one-way circulatory systems in restricted geography. 3. Conclusion: The infrastructure prevents head-on conflicts by forcing a single exit trajectory.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_109",
+    "source_file": "image (109).jpg",
+    "question": "Looking at the blue-painted line on the road and the snow-covered 'ZONE P' sign, why is the white car parked illegally despite being in a parking zone?",
+    "answer": "The car is parked on a sidewalk or pedestrian path, as the blue line on the asphalt defines the legal boundary for vehicle storage; anything beyond the curb/line is restricted for foot traffic.",
+    "reasoning": "1. Observation: A blue line marks the asphalt; a car is positioned on the snowy shoulder beyond that line. 2. Rule: Color-coded ground markings define the exact spatial limits of legal parking. 3. Conclusion: Despite the 'P' sign, the car has committed a lateral encroachment violation into a non-motorized zone.",
+    "reasoning_type": "legal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_110",
+    "source_file": "image (110).jpg",
+    "question": "Based on the green traffic lights and the 'ONE WAY' sign, what is the primary hazard for the woman in the red jacket crossing the street?",
+    "answer": "The primary hazard is a turning-conflict with vehicles (like the white bus) that have a simultaneous green light and may turn across the crosswalk, despite the pedestrian having the right-of-way.",
+    "reasoning": "1. Observation: Signals are green for through-traffic; a 'ONE WAY' sign is visible; a pedestrian is mid-crosswalk. 2. Rule: Parallel vehicle and pedestrian phases often result in 'Fail-to-Yield' accidents. 3. Conclusion: The pedestrian must maintain situational awareness of the turning pocket to her right.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_111",
+    "source_file": "image (111).jpg",
+    "question": "Based on the red yield triangle and the blue circular sign with a roundabout icon, what mandatory protocol must the white car in the foreground follow?",
+    "answer": "The car must yield to any vehicle currently circulating within the junction and only enter when a safe gap is available, following a circular one-way flow.",
+    "reasoning": "1. Observation: An inverted red triangle (Yield) is paired with a blue circular sign showing arrows in a loop. 2. Rule: Roundabout entries mandate that entering vehicles give way to traffic already in the circle. 3. Conclusion: The infrastructure manages high-speed intersection flow by prioritizing continuous circulatory movement over entering vehicles.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_112",
+    "source_file": "image (112).jpg",
+    "question": "Looking at the proximity of the brick building labeled 'DAVAR' and the overhead power lines, what specific spatial hazard should a high-clearance delivery truck anticipate?",
+    "answer": "The truck must anticipate 'Low-Hanging Utility Lines' and a restricted turning radius, as the infrastructure features low-slung transverse wires across a tight urban alleyway.",
+    "reasoning": "1. Observation: Transverse power/telecom lines cross the street at a height comparable to the building's first story. 2. Rule: Historic urban districts often have non-standard utility clearances. 3. Conclusion: Large vehicles risk striking overhead infrastructure if they do not verify height restrictions before entering this narrow corridor.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_113",
+    "source_file": "image (113).jpg",
+    "question": "Analyze the red circular '30' sign on the right. What traffic calming measure is the silver Renault in the center likely responding to despite the wide road?",
+    "answer": "The driver is responding to an 'Urban Speed Limit Reduction' (30 Zone) designed to increase the safety of pedestrians walking dogs or utilizing the residential sidewalk.",
+    "reasoning": "1. Observation: A regulatory '30' zone sign is present; the car is centered in the lane away from the bollard. 2. Rule: 30 km/h zones are implemented to reduce kinetic energy in high-pedestrian-conflict areas. 3. Conclusion: The infrastructure forces a low-speed transit profile to maximize the driver's reaction time near the residential gates.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_114",
+    "source_file": "image (114).jpg",
+    "question": "Based on the yellow double-lines on the curb and the red-leaved trees, what is the primary spatial restriction for the black car parked on the far left?",
+    "answer": "The car is parked in a 'No-Stopping' or 'Clearway' zone, as the yellow solid lines indicate that the travel lane must remain unobstructed at all times.",
+    "reasoning": "1. Observation: A vehicle is stationary next to a solid yellow pavement marking on the curb edge. 2. Rule: Solid yellow edge lines denote parking/stopping prohibitions to maintain effective road width. 3. Conclusion: The driver is in potential violation of urban storage regulations meant to prevent bottlenecks on this curved residential segment.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_115",
+    "source_file": "image (115).jpg",
+    "question": "Looking at the overhead power lines and the wet asphalt, what environmental hazard is the silver car currently managing near the intersection?",
+    "answer": "The driver is managing 'Reduced Traction' and potential 'Glare' from the wet surface, while navigating a complex utility corridor with high-density overhead wiring.",
+    "reasoning": "1. Observation: Asphalt is wet; sky is overcast; multiple power lines cross the visual field at various heights. 2. Rule: Surface moisture significantly increases braking distances and decreases lateral tire grip. 3. Conclusion: The driver must maintain a high following distance and reduced speed to account for the compromised friction coefficient.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_116",
+    "source_file": "image (116).jpg",
+    "question": "Analyze the blue 'P' sign on the white building. Why is the row of parked cars on the right likely permitted to remain there despite the narrow street width?",
+    "answer": "The infrastructure has designated a 'Protected Parking Lane' (Zone P), providing a legal buffer that separates stationary storage from the active travel flow.",
+    "reasoning": "1. Observation: A blue parking sign is visible; cars are aligned on one side of the road with a defined lane marking. 2. Rule: Official signage and lane paint override the general principle of maintaining two full travel lanes. 3. Conclusion: The urban design prioritizes local residential storage over high-volume bi-directional vehicle throughput.",
+    "reasoning_type": "legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_117",
+    "source_file": "image (117).jpg",
+    "question": "Based on the yellow solid center line and the dense foliage, what maneuver is the dark car ahead prohibited from making?",
+    "answer": "The car is prohibited from overtaking or crossing into the opposite lane, as the solid yellow line indicates a 'No-Passing Zone' due to limited sightlines.",
+    "reasoning": "1. Observation: A solid yellow center line is present on a curved road bordered by thick trees. 2. Rule: Solid center lines denote locations where crossing for passing is unsafe. 3. Conclusion: The infrastructure proactively manages head-on collision risks where the curve and foliage obscure oncoming traffic flow.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_118",
+    "source_file": "image (118).jpg",
+    "question": "Looking at the 'calle 13' sign and the train tracks, what specific multimodal hazard should the red car driver anticipate at the upcoming junction?",
+    "answer": "The driver should anticipate 'Active Rail Conflict' and potential 'Flange Gaps' on the road surface, as the infrastructure intersects with an at-grade railway crossing.",
+    "reasoning": "1. Observation: Railroad tracks run parallel to the road and cross the visual field; a black signal/indicator is mounted near the tracks. 2. Rule: At-grade crossings require full yielding to rail transit which cannot swerve or stop quickly. 3. Conclusion: The driver must scan for signal activations to avoid being trapped between the tracks and the industrial buildings.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_119",
+    "source_file": "image (119).jpg",
+    "question": "Analyze the yellow bicycle icon painted on the asphalt. What change in road-user priority occurs for the driver of the white SUV?",
+    "answer": "The driver is entering a 'Shared-Use' or 'Advisory Bike Lane' where they must yield to cyclists and maintain a wide lateral buffer when overtaking.",
+    "reasoning": "1. Observation: A large yellow bicycle symbol is painted in the center of the lane. 2. Rule: Pavement bicycle icons signal a priority zone for non-motorized users. 3. Conclusion: The infrastructure forces motorized traffic to negotiate space with cyclists, prioritizing the safety of the slower, more vulnerable road user in this suburban corridor.",
+    "reasoning_type": "legal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_120",
+    "source_file": "image (120).jpg",
+    "question": "Based on the high-density power lines and the long concrete wall on the right, what is the primary spatial hazard for the silver car at high speed?",
+    "answer": "The primary hazard is 'Lateral Entrapment' with no escape shoulder, as the solid wall on the right and the high-speed traffic flow on the left limit emergency maneuvering options.",
+    "reasoning": "1. Observation: A tall, continuous concrete wall borders the road; wide travel lanes are present under high-voltage lines. 2. Rule: Fixed roadside objects like walls increase the severity of 'Run-Off-Road' accidents. 3. Conclusion: The driver must maintain precise lane discipline as the infrastructure provides zero 'Recovery Zone' for steering errors or mechanical failure.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_121",
+    "source_file": "image (121).jpg",
+    "question": "Based on the double yellow lines and the deer crossing sign, what specific navigational caution must the driver exercise on this road segment?",
+    "answer": "The driver must maintain lane discipline within the solid yellow lines while remaining vigilant for wildlife encroachment, especially as the road borders an open grassy area.",
+    "reasoning": "1. Observation: A yellow diamond sign with a deer silhouette is visible; solid double yellow lines divide the road. 2. Rule: Solid double lines prohibit crossing for passing; deer signs warn of high-frequency animal crossing zones. 3. Conclusion: The infrastructure manages both vehicular collision risk (via lane separation) and environmental hazards (via animal warnings) near the green space.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_122",
+    "source_file": "image (122).jpg",
+    "question": "Analyze the speed limit signs and the aircraft in the background. What is the mandatory speed for the vehicle approaching the curve?",
+    "answer": "The mandatory speed is 50 km/h, as indicated by multiple regulatory '50' signs positioned before the sharp right-hand curve.",
+    "reasoning": "1. Observation: Circular signs with a red border and '50' are present; chevron signs indicate a curve. 2. Rule: Regulatory speed limit signs define the legal maximum velocity. 3. Conclusion: The infrastructure enforces a reduced speed limit to safely manage the centrifugal force at the airport perimeter curve.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_123",
+    "source_file": "image (123).jpg",
+    "question": "Looking at the paved path and the park bench, why is this road likely restricted for high-speed motorized transit?",
+    "answer": "The narrow width of the path and its location within a park/recreational setting suggest it is intended for low-speed maintenance vehicles or pedestrians.",
+    "reasoning": "1. Observation: A single-lane paved path curves through a park with a wooden bench on the grass. 2. Rule: Paths in recreational green zones are prioritized for non-motorized or utility use. 3. Conclusion: The spatial layout minimizes vehicle-pedestrian conflict by excluding general traffic.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_124",
+    "source_file": "image (124).jpg",
+    "question": "Analyze the blue and white striped wall and the overpass. What is the primary function of the high-contrast wall pattern for the driver?",
+    "answer": "The vertical blue and white stripes serve as high-visibility markers to define the vertical clearance and lateral boundaries of the underpass approach.",
+    "reasoning": "1. Observation: Tall retaining walls are painted with repeating vertical blue and white stripes. 2. Rule: High-contrast patterns are used to improve spatial awareness in low-light tunnel environments. 3. Conclusion: The design reduces the risk of lateral collisions with the infrastructure in a high-speed underpass zone.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_125",
+    "source_file": "image (125).jpg",
+    "question": "Based on the 'PED' pavement markings and the yellow diamond sign, what is the mandatory instruction for the white truck parked on the right?",
+    "answer": "The truck must not obstruct the crosswalk area, and drivers must yield to pedestrians at the upcoming marked crossing indicated by the overhead sign.",
+    "reasoning": "1. Observation: Large 'PED' and 'XING' pavement markings are present; a yellow pedestrian warning sign is mounted above. 2. Rule: Pavement markings and signs mandate yielding priority to foot traffic. 3. Conclusion: The infrastructure forces drivers to scan for pedestrians near the storefronts and the tall trees bordering the sidewalk.",
+    "reasoning_type": "regulatory/legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_126",
+    "source_file": "image (126).jpg",
+    "question": "Looking at the median divider and the yellow bus, what is the navigational requirement for the silver car approaching the camera?",
+    "answer": "The car must remain to the left of the concrete median while yielding to traffic exiting from the central bus lane corridor.",
+    "reasoning": "1. Observation: A concrete median with black and white stripes separates the lanes; a signal-controlled bus is visible. 2. Rule: Medians regulate directional flow and separate different transit modes. 3. Conclusion: The infrastructure manages complex multi-modal flows by physically isolating the transit lanes from general traffic.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_127",
+    "source_file": "image (127).jpg",
+    "question": "Analyze the green signals and the overpass. Why is the black SUV on the far left stopped while the center lane has a green light?",
+    "answer": "The black SUV is in a dedicated left-turn or merging pocket that may be under a different signal phase or waiting for a specific gap in oncoming flow.",
+    "reasoning": "1. Observation: A green through-signal is active; the black SUV is stationary in the left-most lane near the concrete pillar. 2. Rule: Multi-lane intersections use lane-specific signals to manage conflict points. 3. Conclusion: The infrastructure uses temporal separation (phasing) to allow safe turns under the wide overpass.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_128",
+    "source_file": "image (128).jpg",
+    "question": "Based on the solid yellow line and the blue circular sign, what maneuver is prohibited for the black sedan traveling in the distance?",
+    "answer": "The sedan is prohibited from crossing into the opposite lane to pass, as indicated by the solid yellow center line on the curve.",
+    "reasoning": "1. Observation: A solid yellow line divides the curved road; a blue sign is on the right shoulder. 2. Rule: Solid center lines denote 'No-Passing' zones. 3. Conclusion: The infrastructure prevents head-on collisions where sightlines are obscured by the dense forest bordering the road.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_129",
+    "source_file": "image (129).jpg",
+    "question": "Looking at the 'calle 13' sign and the steep grade, what navigational challenge is the silver car approaching?",
+    "answer": "The car is approaching a blind curve and a potential intersection where sightlines are limited by the high building density and the roadside fence.",
+    "reasoning": "1. Observation: A 'calle 13' sign is visible; the road curves sharply to the right. 2. Rule: Urban blind curves require reduced speed to react to merging traffic. 3. Conclusion: The infrastructure manages safety by providing signage before the restricted-view junction.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_130",
+    "source_file": "image (130).jpg",
+    "question": "Analyze the white '40' pavement marking and the overhead wires. What is the mandatory restriction for the queue of white vans?",
+    "answer": "The vans must not exceed a speed of 40 units (likely km/h) and must maintain their lane position within the dense residential utility corridor.",
+    "reasoning": "1. Observation: The number '40' is painted on the asphalt; multiple utility wires cross over the road. 2. Rule: Pavement speed markings provide regulatory instruction where post-mounted signs may be obscured. 3. Conclusion: The infrastructure enforces a low-speed transit profile to maximize safety in the narrow residential street.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_131",
+    "source_file": "image (131).jpg",
+    "question": "Analyze the signal status and the pavement markings. Why is the silver car in the center lane maintaining its position instead of proceeding through the intersection?",
+    "answer": "The driver is correctly waiting behind the wide white stop bar of the pedestrian crosswalk because the primary traffic signal is red.",
+    "reasoning": "1. Observation: A vertical traffic signal pole on the right shows a red light; a wide zebra-striped crosswalk is positioned ahead of the silver car. 2. Rule: Drivers must come to a full stop behind the stop line when a red signal is active to clear the pedestrian path. 3. Conclusion: The infrastructure forces stationary behavior to manage the conflict between through-traffic and potential crossing pedestrians.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_132",
+    "source_file": "image (132).jpg",
+    "question": "Looking at the overhead gantry and the surrounding landscape, what is the primary spatial function of the wide bridge structure in the background?",
+    "answer": "The bridge acts as a grade-separated crossing to allow local traffic or wildlife to cross over the high-speed motorway without intersecting the primary flow of vehicles.",
+    "reasoning": "1. Observation: A large concrete bridge spans the multi-lane highway; overhead gantries are positioned for long-distance navigation. 2. Rule: Grade separation is used in high-capacity infrastructure to eliminate intersection conflicts. 3. Conclusion: The design prioritizes continuous vehicular momentum on the main road while providing safe lateral connectivity.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_133",
+    "source_file": "image (133).jpg",
+    "question": "Analyze the visual cues near the '8 AV' street sign. What hidden hazard should the driver of the white truck anticipate as they navigate this urban corner?",
+    "answer": "The driver must anticipate pedestrian movement and potential sightline obstructions from the sidewalk tree and the building corner, as indicated by the yellow 'WALK' signal and crosswalk proximity.",
+    "reasoning": "1. Observation: A yellow pedestrian signal is visible; red pavement markings indicate a high-activity utility zone; a large tree obscures the right-side sidewalk. 2. Rule: Urban intersections with high building density create 'Blind Merge' conditions. 3. Conclusion: The infrastructure uses high-contrast street name signs and signals to mitigate the risks of restricted visibility in a multi-modal zone.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_134",
+    "source_file": "image (134).jpg",
+    "question": "Based on the red 'STOP' sign and the large building shadows, why should a driver exercise extreme caution when approaching the crosswalk on the left?",
+    "answer": "The high contrast between the bright sunlight and the deep shadows created by the architecture can obscure pedestrians or smaller vehicles entering the crosswalk from the shaded area.",
+    "reasoning": "1. Observation: A red circular 'STOP' sign is posted; sharp, dark shadows cover more than half of the roadway. 2. Rule: Extreme lighting transitions reduce a driver's ability to perceive low-contrast objects. 3. Conclusion: The infrastructure manages safety via regulatory signs, but environmental conditions require the driver to slow down to compensate for visual latency.",
+    "reasoning_type": "causal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_135",
+    "source_file": "image (135).jpg",
+    "question": "Looking at the blue banner on the light pole and the curved road geometry, what is the primary navigational instruction for the silver car leading the pack?",
+    "answer": "The car must follow the white solid shoulder line and maintain lane discipline as the road curves to the right, avoiding the raised concrete median.",
+    "reasoning": "1. Observation: A light pole with 'PASS' banners marks a curve; a white car is positioned in a lane tapering toward the right. 2. Rule: Solid white shoulder lines define the safe limit of the travel lane. 3. Conclusion: The infrastructure uses vertical markers (poles) and pavement paint to guide drivers through a non-linear path to prevent side-swipe collisions.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_136",
+    "source_file": "image (136).jpg",
+    "question": "Analyze the blue circular sign and the wide desert-like landscape. What mandatory action does this infrastructure require from the driver approaching the fork?",
+    "answer": "The driver must follow the mandatory direction indicated by the blue sign (likely a 'Turn Right' or 'Keep Right' instruction) to enter the appropriate travel lane.",
+    "reasoning": "1. Observation: A blue circular sign with a white arrow is positioned at a diverge point; the surrounding area is open sand with palm trees. 2. Rule: Blue circular signs are regulatory and indicate mandatory directions. 3. Conclusion: The design prevents 'Wrong-Way' entry into opposing traffic lanes in an area where road boundaries may be visually subtle due to the terrain.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_137",
+    "source_file": "image (137).jpg",
+    "question": "Based on the temporary perimeter fencing and the triangular pavement markings, what change in road priority is occurring for the pedestrian in the center?",
+    "answer": "The pedestrian is navigating a 'Shared Space' or temporary walkway where vehicles are alerted to yield by the white 'Shark's Teeth' (yield) triangles on the ground.",
+    "reasoning": "1. Observation: Construction fencing borders the left; white triangles point toward the pedestrian's path; a red brick building is on the right. 2. Rule: Transverse yield triangles signal that motorized traffic must give priority to users in the crossing zone. 3. Conclusion: The infrastructure manages safety during urban renovation by using temporary barriers and pavement markings to protect foot traffic.",
+    "reasoning_type": "spatial/legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_138",
+    "source_file": "image (138).jpg",
+    "question": "Looking at the blue 'Upward Arrow' sign on the utility pole and the billboard, why is the lane on the far right likely restricted for general traffic?",
+    "answer": "The right-most lane appears to be a dedicated transit or 'Tram' corridor, separated by the railway tracks and the specialized blue directional sign.",
+    "reasoning": "1. Observation: A blue rectangular sign with white arrows is mounted on a tall wooden pole; fixed rail tracks are visible on the right. 2. Rule: Parallel rail infrastructure requires dedicated lane management to prevent vehicular encroachment. 3. Conclusion: The infrastructure uses high-contrast signs to segregate modes of transport, ensuring the tram path remains unobstructed.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_139",
+    "source_file": "image (139).jpg",
+    "question": "Analyze the toll booth indicators and the vehicle inside. What is the primary method of speed control for the driver exiting the booth?",
+    "answer": "The driver must observe the 'Slow' (徐行) instruction and the red/blue signal lights to safely clear the narrow physical constraints of the toll lane.",
+    "reasoning": "1. Observation: Red and blue lights are active above the lane; a green sign with Japanese characters indicates 'Slow/Caution'; the toll structure is narrow. 2. Rule: Toll exits require extremely low speeds to protect staff and sensitive scanning equipment. 3. Conclusion: The infrastructure forces a low-velocity profile via strict lane-channelization and visual signals.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_140",
+    "source_file": "image (140).jpg",
+    "question": "Based on the red-bordered circular '50 km/h' sign and the position of the motorcyclist, what is the primary safety regulation in effect for this suburban stretch?",
+    "answer": "All vehicles, including the motorcyclist, must not exceed the maximum speed of 50 km/h as they transition through this high-visibility corridor.",
+    "reasoning": "1. Observation: A regulatory speed sign with a red border and '50' is clearly visible on the left; the road is wide and straight under clear skies. 2. Rule: Speed limit signs establish the legal ceiling for vehicle velocity. 3. Conclusion: The infrastructure uses frequent sign placement to ensure drivers maintain a speed consistent with the suburban residential/commercial mix visible on the left.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_141",
+    "source_file": "image (141).jpg",
+    "question": "Analyze the blue 'P' sign and the position of the pedestrians. What hazard must the driver of the white Chevrolet anticipate regarding the group near the black car?",
+    "answer": "The driver must anticipate pedestrians stepping into the travel lane to bypass the parked black car, as the sidewalk width is restricted by the vehicle and the stone wall infrastructure.",
+    "reasoning": "1. Observation: A blue regulatory parking sign ('P') is present; a group of pedestrians is walking near a black car parked partially on the curb. 2. Rule: Parked vehicles in narrow urban corridors force non-motorized users into the roadway to maintain momentum. 3. Conclusion: The infrastructure lacks a sufficient physical buffer, requiring the driver to reduce speed for a potential 'lateral encroachment' by pedestrians.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_142",
+    "source_file": "image (142).jpg",
+    "question": "Looking at the green gantry sign for 'Chicago - St. Louis', what mandatory action must the heavy truck on the right take if it intends to exit toward Hinsdale Oasis?",
+    "answer": "The truck must exit immediately to the right, as indicated by the yellow 'PAY TOLL THIS EXIT' header and the blue 'Hinsdale Oasis' regulatory sign.",
+    "reasoning": "1. Observation: The green gantry sign lists through-destinations (Chicago/St. Louis) while a separate blue sign and yellow header denote a toll-based exit for the Oasis. 2. Rule: Overhead signs with downward arrows and 'THIS EXIT' text mandate a diverge at the solid white gore line. 3. Conclusion: To access the service area, the driver must leave the high-speed transit flow immediately.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_143",
+    "source_file": "image (143).jpg",
+    "question": "Based on the red signal light on the utility pole and the position of the cyclist, why is the white car in the center of the road stationary?",
+    "answer": "The white car is at a full stop because the signal-controlled junction is currently in a red phase for motorized traffic, allowing for the safety of cross-traffic or pedestrians.",
+    "reasoning": "1. Observation: A red signal light is active on the right-side pole; a cyclist is positioned ahead of the camera but behind the intersection line. 2. Rule: Red signals mandate a total cessation of movement before the stop line or pedestrian crossing. 3. Conclusion: The infrastructure manages temporal flow at this multi-building junction to prevent T-bone collisions during the urban transit cycle.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_144",
+    "source_file": "image (144).jpg",
+    "question": "Analyze the blue 'P' (Reserved) sign and the 'Zebra' markings. What is the mandatory protocol for the silver car parked on the side of the road?",
+    "answer": "The silver car must be a 'Reserved' permit holder to occupy that space, and it must remain clear of the adjacent zebra-striped crosswalk infrastructure.",
+    "reasoning": "1. Observation: A blue sign marked 'P RÉSERVÉ' is paired with a white-bordered parking stall near a zebra-striped crossing. 2. Rule: Reserved parking limits access to authorized users; crosswalk markers prohibit stationary vehicles to maintain pedestrian sightlines. 3. Conclusion: The infrastructure prioritizes high-contrast visibility for walkers while allocating limited storage space for specific urban residents.",
+    "reasoning_type": "legal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_145",
+    "source_file": "image (145).jpg",
+    "question": "Based on the overhead gantry and the green through-arrows, why is the silver car in the center lane permitted to maintain its speed while approaching the bridge?",
+    "answer": "The car is permitted to maintain speed because the overhead signal control indicates a green phase for its specific lane, signifying no immediate conflict at the 11th St junction.",
+    "reasoning": "1. Observation: Three green downward-pointing arrows are active on the gantry; a 'No U-turn' regulatory sign is also visible. 2. Rule: Lane-use control signals provide real-time clearance for high-capacity highway transit. 3. Conclusion: The infrastructure uses electronic signaling to maximize throughput under the wide bridge span while prohibiting dangerous maneuvers like U-turns.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_146",
+    "source_file": "image (146).jpg",
+    "question": "Looking at the red traffic signal and the smoke stacks in the background, what is the mandatory action for the black Renault approaching the white arrow?",
+    "answer": "The driver must bring the vehicle to a complete stop and prepare to follow the mandatory straight-ahead direction indicated by the pavement marking once the signal changes.",
+    "reasoning": "1. Observation: Red signals are active across the intersection; a large white forward-pointing arrow is painted in the center lane. 2. Rule: Red lights override pavement directional markings until the 'Go' phase is established. 3. Conclusion: The infrastructure uses both light and paint to manage the hazardous industrial crossing near the active utility facility.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_147",
+    "source_file": "image (147).jpg",
+    "question": "Analyze the sound barrier wall on the left. What is the primary safety function of the clear panels integrated into the lower half of the infrastructure?",
+    "answer": "The clear panels provide critical sightlines for merging traffic or potential hazards while maintaining the acoustic dampening required for the surrounding area.",
+    "reasoning": "1. Observation: A tall acoustic barrier features a solid upper section and transparent windows at vehicle-eye level. 2. Rule: Opaque barriers on high-speed roads create blind spots that increase merge-related risks. 3. Conclusion: The infrastructure design balances environmental noise management with active safety by allowing peripheral visual awareness of the adjacent lanes.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_148",
+    "source_file": "image (148).jpg",
+    "question": "Based on the green tram and the purple bus, why is the black SUV in the center currently navigating a high-conflict spatial zone?",
+    "answer": "The SUV is operating in a multi-modal transit corridor where it must negotiate space with fixed-rail trams on the left and heavy transit buses on the right.",
+    "reasoning": "1. Observation: A tram is moving on parallel tracks; a purple bus occupies the right lane; a cyclist is on the sidewalk near the modern glass building. 2. Rule: Multi-modal zones require extreme lateral awareness to avoid entering rail-car swing zones or bus blind spots. 3. Conclusion: The infrastructure forces vehicles into a narrow 'channel' to separate public transit from private transit.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_149",
+    "source_file": "image (149).jpg",
+    "question": "Analyze the zebra crosswalk and the overhead overpass. What hidden risk should the driver on the far left anticipate when approaching the white van?",
+    "answer": "The driver must anticipate pedestrians emerging from under the bridge or behind the parked white van, as the infrastructure geometry creates a severe shadow-based blind spot.",
+    "reasoning": "1. Observation: A wide zebra crosswalk leads into the shadow of a large concrete overpass; buildings are tight to the right shoulder. 2. Rule: Lighting transitions in urban overpasses hide low-contrast objects like pedestrians. 3. Conclusion: The infrastructure layout requires a reduction in approach speed to compensate for the sudden loss of visual detail in the shaded crosswalk zone.",
+    "reasoning_type": "causal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_150",
+    "source_file": "image (150).jpg",
+    "question": "Looking at the solid orange center line and the dense foliage, what maneuver is strictly prohibited for the white car in the distance?",
+    "answer": "The car is prohibited from crossing into the opposite lane to pass or turn, as the solid orange line indicates a dangerous no-passing zone with restricted sightlines.",
+    "reasoning": "1. Observation: A high-contrast solid orange/yellow line divides the roadway; the road curves slightly with heavy trees on the right. 2. Rule: Solid center lines are regulatory markers that forbid crossing due to insufficient clear distance for safe passing. 3. Conclusion: The infrastructure proactively prevents head-on collisions in rural/suburban curves where vision is obscured by natural growth.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_151",
+    "source_file": "image (151).jpg",
+    "question": "Analyze the blue gantry signs and the red-bordered triangle sign on the right. What specific environmental hazard is indicated for this highway segment?",
+    "answer": "The infrastructure warns of 'Slippery Road' conditions caused by snow or ice, as indicated by the red-bordered triangular warning sign featuring a skidding car and a snowflake sub-panel.",
+    "reasoning": "1. Observation: A triangular warning sign is paired with a snowflake icon; blue directional gantry signs indicate major city destinations like Linz and Graz. 2. Rule: Specific weather-related sub-panels mandate increased following distances and reduced speeds during winter. 3. Conclusion: The infrastructure manages high-speed transit safety by pre-emptively alerting drivers to loss-of-traction risks on the elevated roadway.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_152",
+    "source_file": "image (152).jpg",
+    "question": "Looking at the yellow diamond-shaped sign and the double yellow lines, what is the mandatory navigational protocol for the driver approaching the crest of the hill?",
+    "answer": "The driver must stay within the right lane and refrain from passing, while preparing for a potential curve or intersection indicated by the yellow warning sign ahead.",
+    "reasoning": "1. Observation: A yellow diamond sign (warning of a side-road or curve) is visible; double yellow lines divide the two-lane road. 2. Rule: Double solid yellow lines prohibit crossing to overtake; warning signs indicate a change in road priority or geometry. 3. Conclusion: The infrastructure manages safety at a 'Blind Crest' where limited sightlines make passing maneuvers illegal and dangerous.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_153",
+    "source_file": "image (153).jpg",
+    "question": "Analyze the red circular 'No Entry' sign and the 'STRABAG' flags. What does the infrastructure suggest about the path beyond the white car on the left?",
+    "answer": "The path beyond is a restricted corporate or construction entrance where general vehicular access is prohibited, as indicated by the 'No Entry' sign and the industrial branding.",
+    "reasoning": "1. Observation: A red circular sign with a white horizontal bar (No Entry) is posted next to corporate flags; a narrow paved path leads away from the main road. 2. Rule: Regulatory 'No Entry' signs exclude all unauthorized motorized traffic. 3. Conclusion: The infrastructure segregates public through-traffic from private industrial or pedestrian zones to prevent logistical conflicts.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_154",
+    "source_file": "image (154).jpg",
+    "question": "Based on the yellow 'Box Junction' markings and the position of the black sedan, what is the mandatory rule for vehicles entering this intersection?",
+    "answer": "Vehicles must not enter the yellow-hatched area unless their exit path is clear, ensuring the junction remains unobstructed for cross-traffic.",
+    "reasoning": "1. Observation: A large area of the intersection is covered in criss-cross yellow paint; a black car is currently traversing it. 2. Rule: Box junctions are regulatory markings designed to prevent 'gridlock.' 3. Conclusion: The infrastructure forces drivers to judge spatial gaps before committing to the intersection, maintaining flow for the multi-modal traffic (pedestrians, cyclists, and cars) visible.",
+    "reasoning_type": "legal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_155",
+    "source_file": "image (155).jpg",
+    "question": "Looking at the multiple traffic signals and the white van on the right, why is the gold minivan in the center lane permitted to proceed while other lanes may be restricted?",
+    "answer": "The gold minivan is following a green 'Through' signal, while other lanes (such as those turning toward the clock tower) may be governed by specific arrow phases.",
+    "reasoning": "1. Observation: Multiple signal heads are active; the gold minivan is in motion; a large clock tower serves as a landmark. 2. Rule: Complex intersections use lane-aligned signals to separate conflicting movements. 3. Conclusion: The infrastructure manages high-volume throughput by using temporal separation to allow specific lanes to clear while others remain stationary.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_156",
+    "source_file": "image (156).jpg",
+    "question": "Analyze the curved road geometry and the 'SSE Arena' building. What specific spatial instruction is provided by the dashed white lines on the asphalt?",
+    "answer": "The dashed lines define the 'Guidance Path' for the turn, requiring drivers to stay within the marked lane to avoid side-swipe collisions on the wide radius.",
+    "reasoning": "1. Observation: A black car is following a curve marked with white dashes; the road transitions from a wide paved area to a channeled lane. 2. Rule: Intersection guidance lines help drivers maintain their lateral position during multi-lane turns. 3. Conclusion: The infrastructure manages the 'Off-Tracking' risk of vehicles navigating the large-scale urban architecture of the arena district.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_157",
+    "source_file": "image (157).jpg",
+    "question": "Based on the white chevron 'Gore' markings and the green directional signs, what navigational choice must the driver make immediately?",
+    "answer": "The driver must choose between staying on the main route (straight) or exiting to the right toward the secondary routes indicated by the white arrows and signs.",
+    "reasoning": "1. Observation: Large white V-shaped 'chevron' markings separate the through-lane from an exit ramp; green signs with route numbers (143) are visible. 2. Rule: Chevron markings (Gores) designate neutral ground where lane changes are prohibited. 3. Conclusion: The infrastructure creates a physical and visual diverge point to manage high-speed sorting of traffic.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_158",
+    "source_file": "image (158).jpg",
+    "question": "Looking at the red 'Workman' sign and the red-and-white striped bollards, what hazard should the driver anticipate near the grey building?",
+    "answer": "The driver must anticipate 'Road Works' or sidewalk maintenance, as indicated by the triangular 'Work Ahead' sign and the protective barriers.",
+    "reasoning": "1. Observation: A red-bordered triangle sign with a digging person icon is placed on a striped pole; the road surface has yellow markings. 2. Rule: Temporary work signs signal a deviation from standard road conditions and potential presence of personnel. 3. Conclusion: The infrastructure prioritizes the safety of workers by using high-visibility regulatory cues to slow down approaching vehicles.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_159",
+    "source_file": "image (159).jpg",
+    "question": "Analyze the white and green fence on the right and the solid orange center line. What navigational restriction is in effect for the driver on this descent?",
+    "answer": "The driver is prohibited from passing and must maintain a safe distance from the protective fence, which marks a drop-off or restricted environmental zone.",
+    "reasoning": "1. Observation: A continuous white/green metal fence borders the right shoulder; a solid orange/yellow line divides the lanes. 2. Rule: Solid center lines on hills or curves denote no-passing zones due to sightline limitations. 3. Conclusion: The infrastructure manages the risk of run-off-road accidents (via the fence) and head-on collisions (via the line) in a rural or mountainous environment.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_160",
+    "source_file": "image (160).jpg",
+    "question": "Based on the solid orange center line and the white truck in the distance, what is the mandatory lane behavior for the camera vehicle?",
+    "answer": "The vehicle must remain in the left-hand lane and not attempt to overtake, as the solid orange line indicates a strict no-passing zone.",
+    "reasoning": "1. Observation: A single solid orange line divides the road; a white truck is approaching in the opposite lane; heavy utility wires are overhead. 2. Rule: Solid center lines designate road segments where overtaking is unsafe. 3. Conclusion: The infrastructure forces lane discipline to manage the high-conflict potential of the narrow, utility-heavy corridor.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_161",
+    "source_file": "image (161).jpg",
+    "question": "Analyze the road surface markings and the red stop sign. What mandatory protocol must the grey pickup truck follow at the upcoming intersection?",
+    "answer": "The driver must bring the vehicle to a complete cessation of movement behind the white transverse stop line, yielding to any cross-traffic or pedestrians before proceeding.",
+    "reasoning": "1. Observation: A red octagonal 'STOP' sign is visible on the right shoulder, paired with a white 'STOP' pavement marking and a solid transverse stop bar. 2. Rule: Regulatory stop signs mandate a full stop and yield priority to existing traffic at the junction. 3. Conclusion: The infrastructure manages high-conflict urban grid intersections by forcing a full stop to ensure clear sightlines across the residential block.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_162",
+    "source_file": "image (162).jpg",
+    "question": "Looking at the proximity of 'The Old Bank' and the orange safety barriers, what specific urban hazard should the driver of the silver car anticipate?",
+    "answer": "The driver must anticipate pedestrian movement and potential lane narrowing due to active sidewalk maintenance or roadwork indicated by the orange barriers and safety cones.",
+    "reasoning": "1. Observation: Orange water-filled barriers and cones are positioned along the curb; pedestrians are crossing at a junction ahead. 2. Rule: Construction infrastructure signifies a temporary change in road geometry and a higher density of workers or hazards. 3. Conclusion: The infrastructure prioritizes pedestrian separation from the roadway while alerting drivers to reduce lateral speed in a historic commercial corridor.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_163",
+    "source_file": "image (163).jpg",
+    "question": "Analyze the sound barrier walls and the high-voltage power lines. What is the primary spatial function of this infrastructure segment for a high-speed motorist?",
+    "answer": "The segment serves as a dedicated high-capacity transit corridor, using tall acoustic barriers to mitigate noise pollution for surrounding areas and large-scale power lines to manage regional utility distribution.",
+    "reasoning": "1. Observation: Continuous tall sound walls line both sides of the multi-lane highway; a massive power pylon is visible on the right. 2. Rule: Controlled-access highways use physical barriers to isolate high-speed noise from residential or natural zones. 3. Conclusion: The design creates a 'sealed' transit environment that minimizes external distractions while supporting industrial utility infrastructure.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_164",
+    "source_file": "image (164).jpg",
+    "question": "Based on the series of concrete overhead supports and the green 'C1' circle sign, what is the primary spatial restriction for the blue truck in the distance?",
+    "answer": "The truck is navigating a height-restricted and lane-channelized tunnel environment where it must maintain strict lane discipline to avoid contact with the structural supports.",
+    "reasoning": "1. Observation: Massive concrete beams cross the roadway at frequent intervals; a green circular 'C1' route marker and overhead lighting are present. 2. Rule: Low-clearance infrastructure requires precise vehicle positioning to ensure structural safety. 3. Conclusion: The complex multi-level urban design forces vehicles into narrow lanes to manage the load-bearing requirements of the structures above.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_165",
+    "source_file": "image (165).jpg",
+    "question": "Analyze the yellow zebra-striped crossing and the traffic light status. Why is the pedestrian's path currently prioritized over vehicle flow?",
+    "answer": "The crossing is prioritized because the traffic signal is currently in a 'Red' phase for the road, and the yellow markings provide high-visibility identification of the non-motorized user zone.",
+    "reasoning": "1. Observation: A green pedestrian 'Walk' signal is visible; wide yellow stripes cross the asphalt; the roadway is clear of immediate traffic. 2. Rule: High-contrast pavement markings and signal synchronization are used to provide safe transit windows for pedestrians. 3. Conclusion: The infrastructure uses temporal separation to eliminate vehicle-pedestrian conflict in a modern urban center.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_166",
+    "source_file": "image (166).jpg",
+    "question": "Looking at the blue 'Upward Arrow' sign and the bicycle icon, what is the mandatory lane protocol for the driver of the silver car?",
+    "answer": "The driver must proceed in the direction indicated by the arrow and yield priority to cyclists, as the lane is designated for shared use or specifically allows non-motorized transit in that direction.",
+    "reasoning": "1. Observation: A blue rectangular sign features a white arrow and a bicycle silhouette; the street is narrow and paved with cobblestones. 2. Rule: Regulatory signs for bicycles define lane use priority in narrow urban corridors. 3. Conclusion: The infrastructure manages safety in high-density historic zones by explicitly marking lanes for vulnerable road users.",
+    "reasoning_type": "regulatory/legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_167",
+    "source_file": "image (167).jpg",
+    "question": "Analyze the long shadows and the white pavement markings. What specific environmental hazard does the driver of the white truck face?",
+    "answer": "The driver faces reduced hazard perception due to the high-contrast shadow-play created by the buildings, which can obscure low-contrast objects or pedestrians in the roadway.",
+    "reasoning": "1. Observation: Sharp, deep shadows from buildings cover roughly half of the road surface; white lane markings are partially obscured. 2. Rule: Rapid lighting transitions decrease the human eye's ability to detect small changes in contrast. 3. Conclusion: The infrastructure manages safety via paint and layout, but the driver must reduce speed to compensate for visual latency in the shaded zones.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_168",
+    "source_file": "image (168).jpg",
+    "question": "Based on the green traffic light and the white 'P' parking sign, what is the mandatory behavior for the driver of the gold car on the far left?",
+    "answer": "The driver is permitted to proceed through the junction because the signal is green, but they must avoid making any turns that would interfere with the designated parking zone ahead.",
+    "reasoning": "1. Observation: A green traffic signal is active; a blue 'P' sign is visible; the road is divided into lanes for different maneuvers. 2. Rule: Green signals provide right-of-way to the through-lane while parking signage reserves the curb for vehicle storage. 3. Conclusion: The infrastructure uses signal phasing and regulatory signs to manage the transition from through-traffic to urban storage.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_169",
+    "source_file": "image (169).jpg",
+    "question": "Analyze the green traffic signal and the white dashes on the road. What navigational requirement is the silver car currently fulfilling?",
+    "answer": "The car is maintaining lane discipline within the dashed guidance lines to complete a wide right-hand curve under a green signal phase.",
+    "reasoning": "1. Observation: A green signal is active; white guidance dashes curve across the intersection; the road leads under a large concrete overpass. 2. Rule: Pavement guidance marks help vehicles maintain lateral position during multi-lane turns. 3. Conclusion: The infrastructure manages high-volume urban throughput by providing visual paths for complex maneuvers in shadow-prone zones.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_170",
+    "source_file": "image (170).jpg",
+    "question": "Looking at the yellow double lines and the yellow signal lights in the distance, what specific cautionary protocol is the black car following?",
+    "answer": "The car is maintaining a stationary position or a very low speed to monitor the signal phase at a wide, complex intersection bordered by high-density commercial buildings.",
+    "reasoning": "1. Observation: Solid yellow lines indicate a no-passing zone; multiple high-mast signal poles are visible; large office buildings frame the horizon. 2. Rule: Urban 'Avenues' with wide crossings require long signal cycles and precise stop locations. 3. Conclusion: The infrastructure enforces a high-caution approach in the financial/commercial district to safely manage the convergence of multiple high-volume lanes.",
+    "reasoning_type": "regulatory/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_171",
+    "source_file": "image (171).jpg",
+    "question": "Analyze the signal status and the large white fence on the right. What specific hazard must the driver of the black car manage at this intersection?",
+    "answer": "The driver must manage a potential blind entry from the construction site, as the tall 'TAKEUCHI' perimeter fence obscures sightlines for vehicles or workers emerging from the gated area while the driver prepares for the green signal phase.",
+    "reasoning": "1. Observation: A green traffic signal is active; a tall, opaque white construction fence with 'TAKEUCHI' branding borders the right side of the road. 2. Rule: Opaque roadside barriers at intersection corners create severe blind spots. 3. Conclusion: The infrastructure manages site security but increases the collision risk for the through-lane, requiring the driver to monitor the gate gap despite the green light.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_172",
+    "source_file": "image (172).jpg",
+    "question": "Looking at the electronic display 'BOUCHON' and the red circular signs on the center pole, what is the current operational status of the road leading toward Nice Est?",
+    "answer": "The road is experiencing heavy congestion ('BOUCHON' means traffic jam), and the red circular signs indicate specific prohibitions or height/weight restrictions for the ascending ramp.",
+    "reasoning": "1. Observation: A variable message sign (VMS) displays 'BOUCHON'; red-bordered circular regulatory signs are mounted on a central striped pole. 2. Rule: VMS systems provide real-time status updates; red circular signs denote specific regulatory prohibitions. 3. Conclusion: The infrastructure proactively warns the driver of the silver car about delays while strictly managing vehicle types allowed on the narrow urban overpass.",
+    "reasoning_type": "regulatory/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_173",
+    "source_file": "image (173).jpg",
+    "question": "Analyze the traffic signals and the tall trees. Why are the vehicles in the center lane maintaining a slow approach toward the green lights?",
+    "answer": "The drivers are responding to a complex multi-lane junction where secondary signals (visible in the background) may be transitioning, and the high-contrast lighting from the sun requires a cautionary speed to identify merging traffic.",
+    "reasoning": "1. Observation: Primary green signals are active; however, a series of signal-controlled intersections are closely spaced; large pine trees frame the right shoulder. 2. Rule: Closely spaced urban junctions require synchronization and reduced speed to manage multiple conflict points. 3. Conclusion: The infrastructure uses repeated signalization to meter flow on this wide arterial road under bright conditions.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_174",
+    "source_file": "image (174).jpg",
+    "question": "Based on the overhead tram wires and the yellow diamond sign, what is the primary spatial instruction for the grey car on the left?",
+    "answer": "The driver must maintain lane discipline and be vigilant for tram movement, as the yellow diamond sign warns of a change in road priority or a specific rail-related crossing.",
+    "reasoning": "1. Observation: Dense overhead utility/tram wires criss-cross the intersection; a yellow diamond warning sign and a pedestrian crossing are present. 2. Rule: Warning diamonds signal upcoming hazards or changes in right-of-way. 3. Conclusion: The infrastructure manages high-density multi-modal flow (pedestrians, cars, and rail) by using vertical signs to prioritize attention toward the crosswalk and tracks.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_175",
+    "source_file": "image (175).jpg",
+    "question": "Looking at the yellow zebra crossing and the large tree, what is the mandatory navigational protocol for a vehicle approaching this crowd?",
+    "answer": "The vehicle must come to a complete stop or crawl at a walking pace, as the yellow zebra crossing indicates a high-priority pedestrian zone currently occupied by a large group.",
+    "reasoning": "1. Observation: Highly visible yellow stripes cross the road; a dense crowd of pedestrians is present; a German flag and building are in the background. 2. Rule: Pavement markings for crosswalks mandate yielding to pedestrians. 3. Conclusion: The infrastructure prioritizes vulnerable road users in this civic/tourist area, effectively nullifying vehicle speed for the duration of the crossing.",
+    "reasoning_type": "legal/regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_176",
+    "source_file": "image (176).jpg",
+    "question": "Analyze the white 'SPEED LIMIT 35' sign. What is the mandatory behavior for the black sedan in the distance near the billboard?",
+    "answer": "The sedan must maintain a maximum velocity of 35 mph as it transitions from the open road into the residential/commercial zone.",
+    "reasoning": "1. Observation: A regulatory speed limit sign is clearly posted on a utility pole; a billboards and houses are visible further down the road. 2. Rule: Speed limit signs establish the legal maximum velocity for that segment. 3. Conclusion: The infrastructure enforces a speed reduction to manage the increased density of property entrances and utility infrastructure (fire hydrant) on the right.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_177",
+    "source_file": "image (177).jpg",
+    "question": "Based on the snow banks and the curved road, what environmental hazard is the infrastructure currently managing for a cyclist?",
+    "answer": "The infrastructure is managing 'Lateral Enclosure' and reduced traction, where the high snow banks on both sides of the path limit escape options and potential runoff areas.",
+    "reasoning": "1. Observation: Large, vertical walls of plowed snow line both sides of a narrow paved path. 2. Rule: Snow banks restrict the effective width of a path and create blind corners. 3. Conclusion: The spatial constraints force the user to maintain a central position and reduced speed to account for potential ice patches or oncoming users hidden by the curves.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_178",
+    "source_file": "image (178).jpg",
+    "question": "Analyze the red pillar and the metal fence. Why is this road likely restricted for high-speed motorized transit?",
+    "answer": "The road is a restricted campus or private facility access point, as indicated by the narrow width, lack of standard lane markings, and the presence of low-profile security fencing and architectural markers.",
+    "reasoning": "1. Observation: A tall red architectural pillar stands near a low metal fence; the asphalt surface is narrow and borders a dense tree line. 2. Rule: Access roads in institutional zones prioritize pedestrian safety over vehicle throughput. 3. Conclusion: The infrastructure uses physical narrowing to enforce naturally low speeds near the educational or residential buildings.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_179",
+    "source_file": "image (179).jpg",
+    "question": "Looking at the red traffic signal and the white pavement arrow, what is the mandatory maneuver for the silver car behind the SUV?",
+    "answer": "The driver must remain stationary at the red light and then may proceed straight or perform a maneuver consistent with the multi-directional pavement arrow once the signal turns green.",
+    "reasoning": "1. Observation: A red signal is active above the road; a white arrow on the asphalt indicates a choice of directions. 2. Rule: Signal status takes precedence over pavement movement markings. 3. Conclusion: The infrastructure manages intersection capacity by holding traffic to allow pedestrians or perpendicular flow (near the McDonald's) to clear.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_180",
+    "source_file": "image (180).jpg",
+    "question": "Analyze the blue circular sign with a white arrow and the red-striped pole. What mandatory navigational instruction is provided for the black car approaching the junction?",
+    "answer": "The driver must follow the mandatory direction indicated by the blue sign (likely a sharp turn or merge) and stay to the left of the hazard marker (striped pole).",
+    "reasoning": "1. Observation: A blue circular regulatory sign with a white downward arrow is paired with a red-and-white diagonal striped hazard marker; tram tracks are on the left. 2. Rule: Blue circular signs mandate specific movements; striped poles mark physical obstructions or lane shifts. 3. Conclusion: The infrastructure manages high-risk conflict between vehicles and fixed-rail transit by forcing a specific lateral path away from the tracks.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_181",
+    "source_file": "image (181).jpg",
+    "question": "Analyze the yellow double center lines and the surrounding trees. What specific navigational restriction is in effect for the camera vehicle as it approaches the curve?",
+    "answer": "The vehicle is strictly prohibited from crossing into the opposing lane to pass, as the solid double yellow lines indicate a no-passing zone due to restricted sightlines caused by the dense tree line and curve.",
+    "reasoning": "1. Observation: Solid double yellow lines divide a two-lane road that curves to the left; tall pine and deciduous trees border the right shoulder. 2. Rule: Double solid lines represent a regulatory barrier forbidding overtaking. 3. Conclusion: The infrastructure manages head-on collision risks on a rural/residential segment where forward visibility is limited by natural growth.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_182",
+    "source_file": "image (182).jpg",
+    "question": "Looking at the yellow diamond sign and the large tanker truck, what environmental hazard must the silver sedan driver be vigilant for?",
+    "answer": "The driver must be vigilant for children or school-related activity, as the yellow diamond sign with two figures indicates a school crossing or zone nearby.",
+    "reasoning": "1. Observation: A yellow diamond warning sign (School Crossing) is on the right; a heavy liquid tanker (CTL) occupies the left lane. 2. Rule: School zone signs mandate heightened awareness and often reduced speed limits to protect vulnerable road users. 3. Conclusion: The infrastructure alerts high-speed transit to transition into a high-caution zone near local amenities like the 'Pharmacy' seen on the right.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_183",
+    "source_file": "image (183).jpg",
+    "question": "Analyze the green directional signs and the butterfly billboard. What is the primary navigational instruction for the beige car approaching the city center?",
+    "answer": "The driver must maintain their current lane to reach 'Ave. Argentina' (600m) or prepare for a turn toward 'Ave. Brasil' (125m) as indicated by the overhead green guide signs.",
+    "reasoning": "1. Observation: Green directional signs list distances to major avenues; heavy traffic density and large billboards are present. 2. Rule: Guide signs provide advance notice of maneuvers to allow for safe lane changes in dense urban environments. 3. Conclusion: The infrastructure manages high-volume sorting of traffic in a commercial district by providing tiered distance indicators.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_184",
+    "source_file": "image (184).jpg",
+    "question": "Based on the blue rectangular pedestrian sign and the multiple arrows on the pole, what is the mandatory navigational protocol for the driver at this junction?",
+    "answer": "The driver must yield to pedestrians at the marked crossing and follow the specific directional instructions (likely city center or hospital directions) listed on the tiered blue signpost.",
+    "reasoning": "1. Observation: A blue 'Pedestrian Crossing' sign is mounted overhead; a tiered list of blue directional arrows points toward various local destinations. 2. Rule: Blue regulatory/guide signs define mandatory paths and priority zones. 3. Conclusion: The infrastructure manages complex urban flow by concentrating all essential local wayfinding into a single high-visibility vertical mast.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_185",
+    "source_file": "image (185).jpg",
+    "question": "Analyze the red circular 'No Entry' sign and the inverted triangle on the corner. What is the mandatory restriction for a vehicle attempting to enter the street on the right?",
+    "answer": "Entry into the street is strictly prohibited from this direction, and vehicles on the side path must yield to traffic on the main road, as indicated by the red 'No Entry' and 'Yield' signs.",
+    "reasoning": "1. Observation: A red circular sign with a white bar (No Entry) is mounted on the building corner, paired with a triangular 'Yield' sign below. 2. Rule: Regulatory 'No Entry' signs define one-way systems; yield signs establish right-of-way priority. 3. Conclusion: The infrastructure forces a one-way circulatory flow to prevent head-on conflicts in narrow historic urban corridors.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_186",
+    "source_file": "image (186).jpg",
+    "question": "Looking at the overhead gantry with the red and green signals, what is the mandatory action for the white taxi currently on the zebra crossing?",
+    "answer": "The taxi must complete its maneuver and clear the intersection, as the overhead signals indicate a red phase for the cross-street ('Av. Talara') while maintaining active control for the primary flow.",
+    "reasoning": "1. Observation: A digital countdown timer (8 seconds) and a red light are visible on the gantry; the taxi is positioned over a zebra crosswalk. 2. Rule: Traffic signals regulate the temporal separation of conflicting vehicle and pedestrian streams. 3. Conclusion: The infrastructure uses high-contrast gantries and digital timers to reduce 'Dilemma Zone' incidents at busy urban corners.",
+    "reasoning_type": "regulatory/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_187",
+    "source_file": "image (187).jpg",
+    "question": "Analyze the zebra crosswalk and the pedestrian in the grey jacket. Why is the silver car in the background maintaining a slow approach?",
+    "answer": "The driver is yielding to the pedestrian currently occupying the zebra crosswalk, following the priority rules established by the high-visibility pavement markings.",
+    "reasoning": "1. Observation: A pedestrian is walking across wide white zebra stripes; a silver car is approaching with reduced speed. 2. Rule: Zebra crosswalks mandate that vehicles yield to any pedestrian who has entered the crossing. 3. Conclusion: The infrastructure prioritizes vulnerable road user safety by providing a dedicated, marked transit corridor across the multi-lane urban road.",
+    "reasoning_type": "legal/causal",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_188",
+    "source_file": "image (188).jpg",
+    "question": "Based on the series of red traffic lights and the white truck, what is the operational status of the intersection for the camera vehicle?",
+    "answer": "The intersection is currently closed to through-traffic from this approach, as indicated by multiple red signals active across the travel lanes.",
+    "reasoning": "1. Observation: Vertical and horizontal signal arms display multiple red lights; a large white 'Removals' truck is positioned in the center lane. 2. Rule: Red traffic signals require a complete stop behind the designated limit line. 3. Conclusion: The infrastructure manages high-volume suburban throughput by using redundant signaling to ensure visibility against the bright sky.",
+    "reasoning_type": "regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_189",
+    "source_file": "image (189).jpg",
+    "question": "Analyze the overhead green signals and the red pickup truck on the right. What maneuver is the white SUV in the center lane likely preparing for?",
+    "answer": "The white SUV is proceeding straight or preparing for a lane change under the protection of the green signals, while the red truck on the right occupies a merging or parking area.",
+    "reasoning": "1. Observation: Two green through-signals are active; the road surface has significant cracking/repair marks; mountains are in the background. 2. Rule: Green signals grant right-of-way for specific lane-aligned paths. 3. Conclusion: The infrastructure manages high-speed arterial flow by providing overhead clearance signals that are visible from a long distance in open terrain.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_190",
+    "source_file": "image (190).jpg",
+    "question": "Looking at the solid orange center line and the construction on the left, what hazard should the driver be vigilant for?",
+    "answer": "The driver must be vigilant for site traffic or workers emerging from behind the scaffolding, and must refrain from passing due to the solid orange line and restricted sightlines.",
+    "reasoning": "1. Observation: A solid orange center line is present; a building on the left is covered in scaffolding and plastic sheeting; several cars are parked on the left shoulder. 2. Rule: Solid lines prohibit crossing; construction zones require reduced speed and increased lateral awareness. 3. Conclusion: The infrastructure manages the spatial conflict between active urban renovation and continuous transit flow by restricting maneuvers that require entering the opposing lane.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_191",
+    "source_file": "image (191).jpg",
+    "question": "Analyze the stone wall on the left and the utility lines. What spatial hazard must the driver of the white car manage on this rural segment?",
+    "answer": "The driver must manage a 'Sightline Restriction' and potential 'Lateral Encroachment' from the residential wall, as the lack of a shoulder forces any driveway activity or pedestrians directly into the path of travel.",
+    "reasoning": "1. Observation: A high concrete/stone block wall borders the immediate left edge of the road; there is no functional shoulder; high-voltage power pylons are on the right. 2. Rule: Roads with fixed vertical infrastructure at the lane edge require lower speeds due to reduced reaction windows for emerging hazards. 3. Conclusion: The design prioritizes local property boundaries over high-speed recovery zones, making lane discipline critical near the crest ahead.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_192",
+    "source_file": "image (192).jpg",
+    "question": "Looking at the yellow double center lines and the 'School Crossing' sign, what mandatory protocol must the white car on the left follow when merging?",
+    "answer": "The driver must merge with extreme caution, yielding to through-traffic and being vigilant for pedestrians, as the infrastructure defines this as a high-priority school zone with a 'No-Passing' restriction.",
+    "reasoning": "1. Observation: Solid double yellow lines are present; a yellow diamond sign with two walking figures is mounted on a utility pole; a white car is exiting a driveway/side street. 2. Rule: Double solid lines prohibit crossing for passing; school zones often mandate lower speeds (e.g., 30 km/h as seen on the secondary sign). 3. Conclusion: The infrastructure manages safety by strictly separating directional flows in a sensitive pedestrian area.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_193",
+    "source_file": "image (193).jpg",
+    "question": "Analyze the yellow dashed lines on the left and the building shadows. What navigational hazard should the driver of the silver SUV ahead anticipate?",
+    "answer": "The driver should anticipate 'Parallel Conflict' from vehicles or pedestrians in the shaded zone on the left, where the yellow dashed lines indicate a low-speed access or parking lane adjacent to high-density buildings.",
+    "reasoning": "1. Observation: Yellow dashed lane markings are used on the left; the road transitions into a deep shadow cast by the 'Hope Gibbons Ltd' building. 2. Rule: Dashed lines allow for lateral movement (merging/turning) which introduces unpredictable entry points into the primary flow. 3. Conclusion: The infrastructure requires drivers to scan for low-contrast hazards emerging from the building's loading or parking zones.",
+    "reasoning_type": "causal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_194",
+    "source_file": "image (194).jpg",
+    "question": "Based on the blue 'Keep Right' sign and the blue square pedestrian sign, what navigational logic is enforced at this urban fork?",
+    "answer": "The infrastructure enforces a mandatory right-hand flow to bypass the median while prioritizing the zebra crossing for pedestrians navigating between the commercial shops.",
+    "reasoning": "1. Observation: A blue circular sign with a white arrow points right; a blue square sign with a person on a zebra crossing is visible; the road is covered in grey anti-skid aggregate. 2. Rule: Blue circular signs are regulatory and mandate specific directions; pedestrian signs define right-of-way zones. 3. Conclusion: The design uses modal segregation to protect foot traffic while preventing head-on collisions at the junction.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_195",
+    "source_file": "image (195).jpg",
+    "question": "Analyze the '80' speed limit sign and the red-bordered warning triangle. Why is the silver car approaching the camera likely to reduce its speed further?",
+    "answer": "The driver is reacting to a 'Speed Transition' and a warning of potential 'Uneven Surface' or 'Bump' as indicated by the red-bordered triangle sign above the speed limit marker.",
+    "reasoning": "1. Observation: A circular regulatory sign marked '80' is paired with a triangular warning sign showing a vehicle on a wavy surface. 2. Rule: Warning triangles signal immediate changes in road quality that impact vehicle stability. 3. Conclusion: The infrastructure uses tiered signage to manage high-speed flow near the high-rise residential buildings, ensuring safe transition over structural joints or surface changes.",
+    "reasoning_type": "causal/regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_196",
+    "source_file": "image (196).jpg",
+    "question": "Looking at the yellow solid center line and the motorcyclist, what maneuver is the white car approaching the camera prohibited from making?",
+    "answer": "The car is prohibited from overtaking or crossing into the oncoming lane, as the solid yellow line signifies a 'No-Passing Zone' to protect the cyclist and oncoming traffic.",
+    "reasoning": "1. Observation: A continuous solid yellow line divides the lanes; a motorcyclist is centered in the through-lane; traffic lights are visible in the distance. 2. Rule: Solid center lines designate road segments where passing is unsafe due to traffic density or upcoming junctions. 3. Conclusion: The infrastructure manages high-risk overtaking maneuvers in a dense urban corridor with multiple signal-controlled intersections.",
+    "reasoning_type": "regulatory",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_197",
+    "source_file": "image (197).jpg",
+    "question": "Analyze the blue circular sign with the white arrow and the building layout. What mandatory navigational protocol is set for the vehicle reaching the junction?",
+    "answer": "The vehicle must follow the mandatory 'Keep Left' or specific directional arrow on the blue sign, ensuring it stays on the designated path away from the pedestrian walkway.",
+    "reasoning": "1. Observation: A blue circular sign with a downward-pointing white arrow is positioned on the right; the area features modern office buildings and wide sidewalks. 2. Rule: Blue regulatory signs mandate specific lateral positioning to clear obstacles or medians. 3. Conclusion: The infrastructure uses high-visibility signage to manage vehicle-pedestrian separation in a corporate campus environment.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_198",
+    "source_file": "image (198).jpg",
+    "question": "Based on the red and white gantry signals and the blue 'Mautpflicht' sign, what is the mandatory requirement for the white car entering this segment?",
+    "answer": "The car must follow the speed limit (60 km/h) and possess a valid toll 'Vignette,' as indicated by the blue 'Mautpflicht' (Toll Obligatory) sign and the overhead regulatory speed signals.",
+    "reasoning": "1. Observation: Overhead red-bordered '80' and '60' signals are visible; a blue sign with an 'A' icon and 'Mautpflicht' is on the right. 2. Rule: Toll zones require pre-payment or electronic tags for legal passage. 3. Conclusion: The infrastructure uses electronic management to vary speed limits based on traffic density while enforcing regional transit taxation.",
+    "reasoning_type": "regulatory/legal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_199",
+    "source_file": "image (199).jpg",
+    "question": "Analyze the '60 km/h' sign and the text 'FISCALIZAÇÃO ELETRÔNICA'. What specific infrastructure mechanism is the silver car currently passing?",
+    "answer": "The car is passing an 'Automated Enforcement Zone' where speed is monitored by electronic cameras to ensure compliance with the 60 km/h limit.",
+    "reasoning": "1. Observation: A circular red-bordered speed sign ('60') is paired with a rectangular sign warning of 'Electronic Fiscalization' (Speed Cameras). 2. Rule: Warning signs for electronic enforcement are legally required in many regions to induce compliance. 3. Conclusion: The infrastructure uses a deterrent strategy to manage transit velocity on the descending bridge approach.",
+    "reasoning_type": "legal/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_200",
+    "source_file": "image (200).jpg",
+    "question": "Looking at the yellow-clothed pedestrian and the 'ONE WAY' sign, what specific safety conflict is the woman in black managing as she enters the crosswalk?",
+    "answer": "She is managing a 'Parallel Path Conflict' where vehicles following the one-way flow (left to right) may initiate a right-hand turn across her zebra-marked path.",
+    "reasoning": "1. Observation: A 'ONE WAY' sign points to the right; a pedestrian is on the zebra crossing; a yellow truck and a silver car are approaching the intersection. 2. Rule: Pedestrians in marked crosswalks generally have priority, but one-way systems often lead to high-speed merging conflicts. 3. Conclusion: The infrastructure uses high-contrast zebra paint to identify the pedestrian zone, but the one-way flow forces the driver and walker to negotiate space at a single convergence point.",
+    "reasoning_type": "causal/spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_201",
+    "source_file": "image (201).jpg",
+    "question": "Analyze the yellow chevron signs and the road geometry. What mandatory protocol is enforced for the silver pickup truck as it navigates the bend?",
+    "answer": "The driver must maintain their lane and adjust speed to account for the sharp right-hand curve, as indicated by the yellow and black chevron alignment markers on the outer shoulder.",
+    "reasoning": "1. Observation: Multiple yellow chevron signs point toward the right; a silver Toyota pickup is centered in the travel lane. 2. Rule: Chevron markers are regulatory aids that define the path of a sharp curve where standard sightlines are limited. 3. Conclusion: The infrastructure manages high-risk runoff accidents in a rural/wooded area by providing high-contrast visual cues for steering correction.",
+    "reasoning_type": "spatial/regulatory",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_202",
+    "source_file": "image (202).jpg",
+    "question": "Analyze the multiple regulatory signs on the left, including the red-bordered circle and the blue 'plus' sign. What complex navigational environment is the black SUV entering?",
+    "answer": "The SUV is entering a high-density multimodal junction near a medical facility, where it must follow roundabout protocols and yield to emerging ambulance or hospital-related traffic.",
+    "reasoning": "1. Observation: A red-bordered circular roundabout sign is paired with a blue square 'hospital/first aid' sign; a large retaining wall borders the steep grade. 2. Rule: Combined regulatory and informational signs prioritize emergency vehicle access in urban corridors. 3. Conclusion: The infrastructure manages complex vertical and lateral flows in a high-rise urban setting (Hong Kong style), requiring the driver to monitor both the roundabout entry and potential emergency exits.",
+    "reasoning_type": "regulatory/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_203",
+    "source_file": "image (203).jpg",
+    "question": "Looking at the bridge railings and the white dashed lane markers, what is the primary spatial hazard for the red car on this highway segment?",
+    "answer": "The primary hazard is 'Lateral Entrapment' and high wind exposure, as the bridge infrastructure provides no emergency shoulder and features open-mesh railings over a significant drop-off.",
+    "reasoning": "1. Observation: The road is narrowed by high-tension safety barriers; no breakdown lane is present; power lines and distance towers are visible. 2. Rule: Bridges with restricted shoulders require strict lane discipline to prevent chain-reaction collisions. 3. Conclusion: The design maximizes vehicular throughput but minimizes the 'recovery zone' for mechanical failure or steering error.",
+    "reasoning_type": "spatial",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_204",
+    "source_file": "image (204).jpg",
+    "question": "Analyze the blue gantry signs for 'Graz / Budapest'. What navigational choice is being enforced for the pedestrian in the distance?",
+    "answer": "The pedestrian is navigating a dedicated, grade-separated walkway that leads under the highway infrastructure, ensuring they do not intersect with high-speed vehicle flow.",
+    "reasoning": "1. Observation: A large concrete wall separates the upper highway (with directional signs) from a lower pedestrian path; a person is walking away from the camera. 2. Rule: Grade separation is the primary safety mechanism for allowing non-motorized users to traverse major transport corridors. 3. Conclusion: The infrastructure manages safety by physically isolating vulnerable road users from the 100+ km/h transit environment above.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_205",
+    "source_file": "image (205).jpg",
+    "question": "Looking at the ENEOS gas station and the mountain in the background, what specific spatial conflict must the driver of the white van anticipate?",
+    "answer": "The driver must anticipate 'Merge Conflict' from the left, where vehicles exiting the gas station or local businesses intersect with the main through-lane at a single, unmarked entry point.",
+    "reasoning": "1. Observation: A large gas station apron transitions directly into the roadway with minimal curb separation; a high volume of commercial signage is present. 2. Rule: Ribbon-development corridors create frequent, unpredictable entry/exit maneuvers. 3. Conclusion: The infrastructure requires the driver to monitor the 'Transition Zone' on the left where commercial activity disrupts continuous flow.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_206",
+    "source_file": "image (206).jpg",
+    "question": "Analyze the parking layout and the fallen petals on the asphalt. What navigational protocol is required for a vehicle exiting one of these stalls?",
+    "answer": "The vehicle must perform a slow reverse maneuver into the central travel lane, yielding to any oncoming traffic that is partially obscured by the dense row of silver vans.",
+    "reasoning": "1. Observation: Cars are parked diagonally and perpendicularly on both sides of a narrow access road; a high density of similar white/silver vans creates a 'visual wall'. 2. Rule: Parking lot exits require 360-degree awareness as sightlines are blocked by adjacent vehicles. 3. Conclusion: The infrastructure manages high-density vehicle storage but creates a high-risk blind-spot zone for exiting drivers.",
+    "reasoning_type": "spatial/causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_207",
+    "source_file": "image (207).jpg",
+    "question": "Based on the high-rise building and the person in the high-visibility vest, what operational status is indicated for the road ahead?",
+    "answer": "The road is currently in a standard urban transit state, but the presence of the worker and the '24' sign on the grey building suggest a potential for temporary maintenance or delivery-related lane obstructions.",
+    "reasoning": "1. Observation: A worker in a green vest is on the sidewalk; a black SUV is centered in a wide lane; a distant green signal is visible. 2. Rule: Personnel on foot in urban corridors signal an active maintenance or logistics zone. 3. Conclusion: The infrastructure manages safety by ensuring high-visibility gear is worn by personnel near the travel lanes, alerting drivers to scan for temporary hazards.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_208",
+    "source_file": "image (208).jpg",
+    "question": "Analyze the overhead pedestrian bridge and the concrete side walls. What is the primary safety function of the bridge for the highway users below?",
+    "answer": "The bridge eliminates the risk of pedestrian-vehicle collisions on the high-speed motorway by providing a safe crossing point for local residents between the two embankments.",
+    "reasoning": "1. Observation: A thin pedestrian bridge spans a multi-lane highway; the highway is set into a deep cut with grassy embankments. 2. Rule: Pedestrian exclusion is mandatory for controlled-access highways. 3. Conclusion: The infrastructure design prioritizes unimpeded vehicular momentum while maintaining community connectivity via vertical separation.",
+    "reasoning_type": "spatial",
+    "difficulty": "easy"
+  },
+  {
+    "image_id": "TRF_209",
+    "source_file": "image (209).jpg",
+    "question": "Looking at the snow clearing activity on the left, what environmental hazard must the driver of the black car in the distance manage?",
+    "answer": "The driver must manage 'Reduced Surface Friction' and potential visibility issues from flying debris, as workers are actively shoveling snow into piles near the intersection.",
+    "reasoning": "1. Observation: Two workers are manually clearing snow near a gas station; the road surface is wet and partially slush-covered. 2. Rule: Winter maintenance activity signals that the 'Friction Coefficient' of the asphalt is likely compromised. 3. Conclusion: The infrastructure relies on manual labor to maintain site access, but the runoff creates a slippery transition for vehicles approaching the signalized junction.",
+    "reasoning_type": "causal",
+    "difficulty": "hard"
+  },
+  {
+    "image_id": "TRF_210",
+    "source_file": "image (210).jpg",
+    "question": "Analyze the large 'P' sign with the arrow and the Japanese characters on the pavement. What mandatory instruction is provided for the driver exiting the parking area?",
+    "answer": "The driver must come to a complete stop, as indicated by the large '止まれ' (STOP) pavement marking, and follow the mandatory directional arrows to exit toward the main road.",
+    "reasoning": "1. Observation: A tall sign with an 'AEON' logo and a pink arrow points to parking; '止まれ' is painted in white on the asphalt. 2. Rule: Pavement markings in Japan (characters or 'Stop' bars) carry the same legal weight as vertical signs. 3. Conclusion: The infrastructure forces a priority check at the commercial exit to prevent T-bone collisions with the high-speed traffic passing the utility pylons.",
+    "reasoning_type": "regulatory/spatial",
+    "difficulty": "hard"
+  }
+]
